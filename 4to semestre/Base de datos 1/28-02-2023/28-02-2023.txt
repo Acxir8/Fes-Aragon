@@ -1,0 +1,26 @@
+Aun nos faltan 2 temas:
+Normalizaación
+Algebra relacional
+
+
+
+Sql esta dividido 
+LEnguaje de división de datos
+
+Vamos a ocupar estructuras llamadas tablas 
+
+El lenguaje de definición de datos: nos servirá para nuestra aplicación, el dominio de los datos, etc... 
+
+3 Comandos:  Create (Crear algo en la base), Alter (Cambiar algo que ya esté en la base), drop (Eliminar cualquier cosa de la base)
+
+
+Lenguaje de manpulación de datos: 
+3 comandos: Insert(Insertar), Update(Actualizar), Delete(borrar), select(Seleccionar o recuperar datos)
+
+
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+Todas las consultas terminan en ;
+
+Correo, nombre, cuenta: enriquemariaca72@aragon.unam.mx, Enrique Mariaca Vazquez,  OA536264028
