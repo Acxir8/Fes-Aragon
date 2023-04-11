@@ -154,4 +154,10 @@ where p.clave_alu is null
 group by a.clave_alu
 order by 4, 2 desc;
 
-
+select a.clave_alu, concat_ws(' ', ap_paterno, ap_materno, nombre) alu, tpagos, npagos, ultima_fpago
+from alumnos a 
+natural left join (
+	select clave_alu, ifnull(sum(pago), 0) tpagos, count(pago) npagos, ifnull(max(fecha_pago), '000-00-00') ultima_fpago 
+	from pagos
+	group by clave_alu) p
+order by 2 desc;
