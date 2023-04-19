@@ -81,12 +81,42 @@ order by 2;
 
 -- Promedio por estado y por curso
 select estados.estado estado, a.id_estado,
+sum(if(a.id_estado = estados.id_estado,'2015-2016', 0)) '2015-2016',
+sum(if(a.id_estado = estados.id_estado,'2016-2017', 0)) '2016-2017',
+sum(if(a.id_estado = estados.id_estado,'2016-2017', 0)) '2017-2018',
+sum(if(a.id_estado = estados.id_estado,'2016-2017', 0)) '2018-2019',
+sum(if(a.id_estado is null ,'Sin curso', 0)) 'Sin curso'
+from estados, alumnos a,(
+select matricula, alumno, estado,
+sum(if( curso = '2015-2016',promedio, 0)) '2015-2016',
+sum(if( curso = '2016-2017',promedio, 0)) '2016-2017',
+sum(if( curso = '2017-2018',promedio, 0)) '2017-2018',
+sum(if( curso = '2018-2019',promedio, 0)) '2018-2019',
+sum(if(curso is null ,promedio, 0)) 'Sin curso'
+from alumnos a,(
+select e.clave_alu, a.clave_alu matricula, a.id_estado estado,
+concat_ws(' ', ap_paterno, ap_materno, a.nombre) alumno,
+e.id_curso, abreviatura curso, avg(calificacion) promedio
+from evaluaciones e
+right join alumnos a on(e.clave_alu = a.clave_alu)
+left join cursos c on (e.id_curso = c.id_curso)
+group by e.clave_alu, a.clave_alu, concat_ws(' ', ap_paterno, ap_materno, a.nombre), a.id_estado, e.id_curso, abreviatura) x
+group by matricula, alumno, estado
+) z
+where estados.id_estado = a.id_estado
+group by estado, a.id_estado
+order by 1;
+
+
+
+
+select estados.estado estado, a.id_estado,
 sum(if( curso = '2015-2016',promedio, 0)) '2015-2016',
 sum(if( curso = '2016-2017',promedio, 0)) '2016-2017',
 sum(if( curso = '2017-2018',promedio, 0)) '2017-2018',
 sum(if( curso = '2018-2019',promedio, 0)) '2018-2019',
 sum(if(curso is null ,promedio, 0)) 'Sin curso',
-if(a.id_estado = estados.id_estado, count(*), 0) nalu
+count(a.id_estado = estados.id_estado) nalu
 from estados, alumnos a, (
 select e.clave_alu, a.clave_alu matricula,
 e.id_curso, es.estado, c.abreviatura curso, avg(calificacion) promedio
