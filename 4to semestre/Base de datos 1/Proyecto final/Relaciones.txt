@@ -1,0 +1,4 @@
+En un mismo proyecto puede haber varios analistas, programadores...
+Proyectos a empresas
+1 proyecto, varios trabajadores 
+1 trabajador tiene 1 rol por proyecto
