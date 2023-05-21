@@ -1,0 +1,22 @@
+
+-- 1.-Crear una tabla pivote que liste el total de pagos por dia de la semana, en español, de los pagos del año 2018
+
+-- 2.-Listar los alumnos que hayan echo un pago despues del dia 300 del año 2018
+
+-- 3.- Listar todos los profesores que den clases en los salones de bachillerato
+
+-- 4.-Usando la funcion DATE_FORMAT listar las 10 primeras semanas del año con mayor numero de registros cambiados basado en el contenido del campo fedita de la tabla alumnos
+
+-- 5.-Eliminar el campo CP de la tabla de alumnos
+
+-- 6.-Listar los niveles que no tenga ningun salon registrado
+
+-- 7.- Listar a los maestros que no tengan ninguna materia registrada
+
+-- 8.-La tabla alumno_salon tiene una llave primaria compuesta por los campos id_salon, id_curso , clave_alu, elimanar la PK y crear un nuevo campo llamado id NN AI y asignarlo como 
+
+-- 9.- Lista las personas (alumnos y profesores) que hayan nacido en un año terminado en 5 (1975,1985,1995, etc), mostrar el nombre completo en un solo campo llamado nombre_completo
+
+-- 10.-Actualizar los nombres de los alumnos que no vivan en queretaro en formato de letra capital
+
+

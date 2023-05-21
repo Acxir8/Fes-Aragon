@@ -1,0 +1,17 @@
+https://sembralia.com/blogs/blog/aminoacidos-esenciales 
+https://mexico.justia.com/federales/leyes/ley-del-impuesto-sobre-la-renta/titulo-ii/capitulo-ii/seccion-ii/
+https://blog.hubspot.es/sales/que-es-trema
+https://escuela-emprendedores.alegra.com/mexico/como-calcular-el-isr/
+https://economia3.com/tasa-interna-retorno/#:~:text=Para%20calcular%20la%20TIR%2C%20se,multiplicar%20el%20resultado%20por%20100.
+
+
+
+
+
+
+100 0.5
+200 2
+200 1
+50  0.25
+0.1
+

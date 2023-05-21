@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS FABRICA;
+CREATE DATABASE FABRICA;
+USE FABRICA;
+
 CREATE TABLE `Empresa` (
   `Id_Empresa` int PRIMARY KEY NOT NULL,
   `Nombre` varchar(255) NOT NULL,
@@ -109,3 +113,4 @@ ALTER TABLE `Horas_Trabajador` ADD FOREIGN KEY (`Id_HTrabajador`) REFERENCES `Pr
 ALTER TABLE `Proyecto_Trabajador` ADD FOREIGN KEY (`Id_Proyecto_Trabajador`) REFERENCES `Asigna` (`Id_Proyecto_Trabajador`);
 
 ALTER TABLE `Trabajador` ADD FOREIGN KEY (`Id_Trabajador`) REFERENCES `Asigna` (`Id_Trabajador`);
+
