@@ -1,3 +1,11 @@
+-- Estado de la base de datos
+-- Integrantes:
+-- Cruces Hernández Noemi Guadalupe
+-- Landeros Carpinteyro Ricardo
+-- Mariaca Vazquez Enrique
+-- Pedro Zarate Felipe de Jesus
+-- Salvador Arrieta Jair Argel
+
 use fabrica;
 -- Insert
 
