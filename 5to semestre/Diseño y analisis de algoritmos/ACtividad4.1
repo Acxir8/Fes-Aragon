@@ -1,0 +1,22 @@
+import random
+
+random.random()
+
+random.randint(1,100)
+b=["Emilio", "Rafa","Iván","Javier"]
+print(random.choice(b))
+
+n = 10
+lista=[]
+for c in range(n):
+    lista.append(random.randint(1,10))
+print(lista)
+
+
+n=10
+lista=[]
+while len(lista)<n:
+    ale = random.randint(1,n)
+    if not(ale in lista):
+        lista.append(ale)
+print(lista)
