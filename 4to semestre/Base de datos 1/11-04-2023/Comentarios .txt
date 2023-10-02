@@ -1,5 +1,0 @@
-Cuadno se realiza una consulta anidada, la consulta se convierten en campos ya no son un agrupamiento, se vuelven campos normales, por lo que no es necesario
-usar having, se puede usar un where.
-
-Examen para despuesito
-
