@@ -1,0 +1,3 @@
+Mi principal hobby es el cultivo de cactus.
+
+Un posible proyecto es la implementación de una aplicación, con el objetivo de tener un registro virtual de las plantas, para poder llevar a cabo una selección a la hora de reproducir y mantener archivada su decedencia, en el caso de que se quieda realizar una seleccón entre los individuos.

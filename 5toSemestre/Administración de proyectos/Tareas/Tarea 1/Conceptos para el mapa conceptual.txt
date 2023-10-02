@@ -1,0 +1,178 @@
+1 Proyecto y dirección de proyectos
+
+PROYECTO: esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.
+TRABAJO OPERATIVO: efectuar permanentemente actividades que generan un mismo producto o proveen un servicio repetitivo.
+
+¿Por qué se originan los proyectos?
+Todos los proyectos tienen como fin último obtener algún beneficio para la organización o sociedad. Estos beneficios podrían ser tangibles como por ejemplo ganar dinero, salvar vidas o mejorar la participación de mercado; o intangibles como podría ser aumentar la reputación u obtener una satisfacción personal por hacer el bien social.
+
+¿Qué es la dirección proyectos?
+La dirección de proyectos es la aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir con los requisitos del mismo.
+
+Como veremos a lo largo del libro, existen procesos y herramientas, tales como el Acta de Constitución del Proyecto, la Estructura de Desglose del Trabajo, el Análisis del Valor Ganado, entre otras, que son específicas de la dirección de proyectos.
+
+
+
+2 Contexto: proyectos, programas y portafolios
+
+Los proyectos están incluidos dentro de un contexto más amplio. En primer lugar, los proyectos, programas o portafolios deberían estar alineados con el plan estratégico de la compañía para facilitar la gestión y éxito de los mismos.
+
+Un portafolio puede incluir distintos programas y/o proyectos alineados sobre un mismo objetivo estratégico. Por ejemplo, un Holding podría tener programas y proyectos organizados bajo portafolios según diferentes unidades de negocio como podría ser: Shopping, Préstamos, Construcción, etc.
+
+Un programa es un conjunto de proyectos relacionados que se gestionan en conjunto para alcanzar beneficios que no se podrían obtener si se gestionan por separado. Por ejemplo, un Programa de “Ciudad Productiva” podría estar formado por proyectos complementarios de “Infraestructura”, “Capacitación” y “Financiamiento”. Cabe destacar que un gran proyecto de miles de millones de dólares de inversión no necesariamente es un programa, sino un mega-proyecto.
+
+No todo proyecto pertenece siempre a un programa o portafolio. Por ejemplo, existen proyectos independientes que forman parte de un portafolio sin estar vinculados a un programa; o proyectos transversales a la organización (ej. cambio de un sistema informático) que no pertenecen a ningún portafolio o programa.
+
+Cuando las organizaciones implementan de manera estructurada sus estrategias, a través de proyectos, programas y portafolios, se dice que trabajan con una Dirección de Proyectos Organizacional (OPM).
+
+
+
+3 Ciclo de vida del proyecto
+
+El ciclo de vida del proyecto se refiere a las distintas fases del proyecto desde su inicio hasta su fin. En el gráfico a continuación podemos ver distintos ejemplos de fases de proyectos.
+
+Cada fase del proyecto por lo general termina con un entregable o lección aprendida que habilita o no a continuar con la siguiente fase. Por ejemplo, si el patrocinador no aprobó el estudio de factibilidad, no podremos comenzar con la fase de inversión.
+
+
+Predictivo: hasta que no finaliza la fase predecesora, no comienza su sucesora. Este ciclo de vida consiste en seguir un plan desde el inicio hasta el cierre del proyecto. En estos casos, el alcance, tiempo y costo están bien definidos en las fases iniciales del proyecto (inicio, planificación).
+
+Adaptativo: al finalizar la fase A comienza B, y al finalizar B comienza nuevamente A, y así sucesivamente de manera iterativa. Este tipo de interrelación es muy utilizado en metodologías ágiles (ej. Scrum o Kanban) donde se subdivide el proyecto en menores entregables y cada entregable es gestionado como un mini-proyecto para ir entregando valor al cliente rápidamente. Antes de comenzar con cada iteración, el alcance detallado de esa iteración está definido. Existen dos variaciones del modelo adaptativo:
+
+	o Iterativo: el alcance preliminar se establece de manera temprana, mientras que el tiempo y costo de cada fase se va definiendo con iteraciones a medida que avanza la ejecución del proyecto. En las primeras iteraciones se va construyendo un borrador del producto final mediante el análisis-desarrollo-reflexión y en las fases sucesivas se va agregando calidad al producto con más análisis-desarrollo-reflexión. Al comenzar no hay certeza absoluta sobre el alcance detallado del producto final, sino que se va construyendo a medida que se avanza y se va viendo el desarrollo del producto.
+
+	o Incremental: al inicio hay una idea completa sobre el alcance del producto o servicio final. En las primeras iteraciones se entrega una funcionalidad básica y se va agregando mayor funcionalidad al producto a medida que avanzan las fases del proyecto.
+
+
+
+
+
+4 Grupos de procesos
+
+No debemos confundir el ciclo de vida del proyecto con los cinco grupos de procesos: inicio, planificación, ejecución, monitoreo-control y cierre.
+
+Los procesos a lo largo del ciclo de vida del proyecto podrían ser:
+ Únicos como por ejemplo “Desarrollar el Acta de Constitución” o “Cerrar el proyecto”;
+ Periódicos como por ejemplo la “Adquisición de Recursos”;
+ Continuos como podría ser la “Definición de actividades” en proyectos con ciclo de vida adaptativo.
+
+
+
+5 Áreas del conocimiento
+
+
+Con base en la Guía del PMBOK® existen diez áreas del conocimiento:
+1. Gestión de la Integración
+2. Gestión del Alcance
+3. Gestión del Cronograma
+4. Gestión del Costo
+5. Gestión de la Calidad
+6. Gestión de los Recursos
+7. Gestión de las Comunicaciones
+8. Gestión de los Riesgos
+9. Gestión de las Adquisiciones
+10. Gestión de los Interesados
+
+
+
+6 Caso de negocios
+
+El caso de negocios es un documento detallado que ayuda a justificar si es conveniente o no realizar una inversión en la organización. En este documento generalmente se incluye lo siguiente:
+
+	 Definición del problema u oportunidad de mercado
+	 Visión general del proyecto y su alineación con los objetivos estratégicos de la organización
+	 Impacto del proyecto sobre los resultados de negocio
+	 Análisis de alternativas
+	 Análisis costo beneficio y retorno de la inversión 3
+
+
+7 Proyecto exitoso
+Luego, a partir de la década del 80´se define un proyecto exitoso cuando, además de cumplir con la calidad, cumplía con los plazos y presupuesto definidos en el plan del proyecto.
+Como si esto fuera poco, a partir de la década del 90´ no alcanza con cumplir la calidad, plazos y presupuesto para el éxito de un proyecto. Sino, que además de estos objetivos mínimos, es necesario que el proyecto cumpla con la “satisfacción del cliente”.
+
+A estas cuatro características de proyecto exitoso deberíamos agregar también la “sostenibilidad o cuidado”. O sea, no podríamos definir como exitoso un proyecto que cumplió con parámetros técnicos de calidad, cronograma, presupuesto y satisfacción de cliente, si no fuimos capaces de preservar el medio ambiente o los miembros del equipo durante la ejecución del proyecto.
+
+Por ende, hasta nuestros días, para que un proyecto sea exitoso debería considerar los siguientes requisitos:
+ Alcance de calidad
+ Plazo
+ Presupuesto
+ Beneficios del proyecto (Objetivos del cliente)
+ Sostenibilidad
+
+
+
+8 Las restricciones del proyecto
+Las principales características de los objetivos de un proyecto son los siguientes:
+ Se establecen al Inicio
+ Se perfeccionan durante la Planificación
+ Son responsabilidad del Director del Proyecto
+ Son SMART (Specific, Measurable, Achievable, Result-oriented, Time-limited): específicos, medibles, alcanzables, orientado a resultados y con fecha límite de ejecución.
+
+
+Históricamente las variables de la restricción triple del proyecto eran tres: alcance, tiempo y costo. Veremos más adelante que hoy en día son más de tres variables.
+Hoy en día en la ecuación de restricciones del proyecto ya no hay sólo tres variables como en el pasado, sino que se incluyen las siguientes seis variables: alcance, tiempo, costo, calidad, recursos y riesgo.
+
+
+
+
+
+9 Estructuras de la organización
+En las empresas existen distintos tipos de estructuras organizacionales como por ejemplo: Orgánica o simple, Funcional, Multi-divisional, Matricial, Orientada a proyectos, Virtual, PMO e Híbrida.
+
+Orgánica o simple
+Este tipo de organización se suele encontrar en algunas pequeñas y medianas empresas o empresas familiares. En estas estructuras existe un único departamento sin divisiones y todos los miembros del equipo trabajan juntos.
+
+Funcional
+La estructura organizacional más tradicional es la funcional. En este tipo de estructuras jerárquicas con gran centralización, cada empleado tiene un superior y las personas se agrupan por especialidades: ingeniería, marketing, producción, etc.
+
+Multi-divisional
+En las estructuras multi-divisionales cada departamento es una unidad independiente que tiene autonomía propia. Las divisiones suelen utilizar diferentes criterios como por ejemplo: regiones, productos, marcas, clientes, etc. Cada división descentralizada suele replicar departamentos funcionales y tiene su propia identidad corporativa y un liderazgo independiente.
+
+Matricial
+En una organización matricial se mantiene la estructura funcional pero se crea una estructura organizada por proyectos que utiliza recursos del resto de la organización.
+
+Orientada a proyectos (Proyectizada)
+En las organizaciones orientadas a proyectos los miembros del equipo suelen estar trabajando en el mismo lugar físico con directores de proyecto con gran independencia y autoridad. Este tipo de estructuras se observa en empresas que obtienen sus ingresos principalmente de proyectos.
+
+Virtual
+La organización virtual es una estructura que vincula personas y organizaciones mediante las tecnologías de la información, lo que requiere de una gran auto-disciplina para organizar el trabajo por parte de los interesados. Por lo general, con esta organización se reducen costos laborales y se facilita el acceso a las distintas capacidades de los involucrados.
+
+Híbrida
+Una estructura organizacional híbrida incluiría una combinación de algunas de las organizaciones mencionadas previamente: funcional, multi-divisional, matricial, proyectizada y virtual.
+
+
+10 Oficina de dirección de proyectos (PMO)
+La oficina de gestión de proyectos, programas y portafolios o PMO (Project Management Office) es una entidad de la organización que facilita la dirección centralizada y coordinada de proyectos. La estructura organizacional puede ser un modelo híbrido donde se combinan estructuras funcionales, matriciales o proyectizadas.
+
+
+11 Rol del Director de Proyectos
+El DP es la persona responsable de coordinar el proyecto para que se cumpla el resultado esperado participando desde el inicio (Acta de constitución) hasta el cierre del proyecto (Lecciones aprendidas).
+En algunos casos, el DP también se involucra de manera temprana antes de la iniciación, participando en actividades como:
+ Análisis estratégico de portafolios
+ Estudios de pre-factibilidad
+ Formulación y evaluación del proyecto de inversión
+ Análisis de negocios y alternativas
+ Elaboración del caso de negocios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

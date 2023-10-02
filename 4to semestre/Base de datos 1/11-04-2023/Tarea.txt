@@ -1,0 +1,21 @@
+Suma la calificación de todos los alumnos por estado y promedia por 
+curso
+
+
+
+Un join unicamente con los alumnos y los estados
+
+
+
+Tablas:
+evaluaciones e
+estados es
+alumnos a
+cursos c 
+
+necesitamos la clave alu
+de alumnos y de evaluaciones
+id_estado de alumnos y de
+estados
+id_curso de evaluaciones
+y de cursos
