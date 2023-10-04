@@ -1,0 +1,27 @@
+# do CarritoMueve.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CarritoMueve
+# 
+# Top level modules:
+# 	CarritoMueve
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CarritoMueve_vlg_sample_tst
+# -- Compiling module CarritoMueve_vlg_check_tst
+# -- Compiling module CarritoMueve_vlg_vec_tst
+# 
+# Top level modules:
+# 	CarritoMueve_vlg_vec_tst
+# vsim -L maxii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.CarritoMueve_vlg_vec_tst 
+# Loading work.CarritoMueve_vlg_vec_tst
+# Loading work.CarritoMueve
+# Loading maxii_ver.maxii_io
+# Loading maxii_ver.maxii_lcell
+# Loading maxii_ver.maxii_asynch_lcell
+# Loading maxii_ver.maxii_lcell_register
+# Loading work.CarritoMueve_vlg_sample_tst
+# Loading work.CarritoMueve_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(320)
+#    Time: 1 us  Iteration: 0  Instance: /CarritoMueve_vlg_vec_tst/tb_out
