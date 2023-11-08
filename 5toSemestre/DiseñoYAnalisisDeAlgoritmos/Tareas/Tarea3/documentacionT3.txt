@@ -1,0 +1,308 @@
+Posibles letras al iniciar
+
+posA="abcdefghijklmnopqrstuvwxyz"
+posB="abcdefghijklmnopqrstuvwxyz"
+posC="abcdefghijklmnopqrstuvwxyz"
+posD="abcdefghijklmnopqrstuvwxyz"
+posE="abcdefghijklmnopqrstuvwxyz"
+posG="abcdefghijklmnopqrstuvwxyz"
+posH="abcdefghijklmnopqrstuvwxyz"
+posI="abcdefghijklmnopqrstuvwxyz"
+posK="abcdefghijklmnopqrstuvwxyz"
+posL="abcdefghijklmnopqrstuvwxyz"
+posO="abcdefghijklmnopqrstuvwxyz"
+posP="abcdefghijklmnopqrstuvwxyz"
+posQ="abcdefghijklmnopqrstuvwxyz"
+posR="abcdefghijklmnopqrstuvwxyz"
+posS="abcdefghijklmnopqrstuvwxyz"
+posT="abcdefghijklmnopqrstuvwxyz"
+posU="abcdefghijklmnopqrstuvwxyz"
+posV="abcdefghijklmnopqrstuvwxyz"
+posX="abcdefghijklmnopqrstuvwxyz"
+posY="abcdefghijklmnopqrstuvwxyz"
+posZ="abcdefghijklmnopqrstuvwxyz"
+
+
+#Probando con ngvvwwx
+for p in dic:
+    if len(p)==7:
+        if p[2]==p[3] and p[4]== p[5]:
+            c = c+1
+            print(p)
+                
+balloon
+barroom
+bassoon
+buffoon
+coffees
+colleen
+halloos
+puttees
+raccoon
+succeed
+toffees
+walloon
+yippees
+
+ngvvwwx
+n = bchprstwy
+g = auoi
+v = lrsftcp
+w = oe
+x = nmsd
+
+#Probando con ciwswtxwx
+for p in dic:
+    if len(p)==9:
+        if p[2]==p[4] and p[4]== p[-2] and p[-3] == p[-1]:
+            if p[2] in posW and p[-1] in posX:
+                c = c+1
+                print(p)
+                
+pretended
+pretenses
+whereases
+
+ciwswtxwx
+c = pw
+i = hr
+w = e
+s = rt
+t = an
+x = ds
+
+#Probando con spw
+for p in dic:
+    if len(p)==3:
+        if p[0] in posS and p[-1] in posW:
+                c = c+1
+                print(p)
+
+roe
+rue
+rye
+the
+tie
+toe
+
+spw
+s = rt
+p = ouyhi
+w = e
+
+#Probando con whcwxysyat
+for p in dic:
+    if len(p)==10:
+        if p[0] == p[3] and p[5] == p[-3]:
+            if p[0] in posW and p[2] in posC and p[4] in posX and p[-4] in posS and p[-1] in posT:
+                c = c+1
+                print(p)
+
+expedition
+
+whcwxysyat
+w = e
+h = x
+c = p 
+x = d
+y = i 
+s = t 
+a = o 
+t = n
+
+#Probando con vatnwjgwtsqo
+for p in dic:
+    if len(p)==10:
+        if p[4] == p[7]:
+            if p[0] in posV and p[1] in posA and p[2] in posT and p[3] in posN and p[4] in posW and p[-6] in posG and p[-4] in posT and p[-3] in posS:
+                c = c+1
+                #print(p)
+                
+#la palabra no se encuentra en el diccionario               
+
+
+#Probando con spiww
+for p in dic:
+    if len(p)==5:
+        if p[-2] == p[-1]:
+            if p[0] in posS and p[1] in posP and p[2] in posI and p[3] in posW:
+                c = c+1
+                print(p)
+
+three
+
+spiww
+s = t
+p = h 
+i = r 
+w = e
+
+#Probando con leswitaatn
+for p in dic:
+    if len(p)==10:
+        if p[-3] == p[-4]:
+            if p[2] in posS and p[3] in posW and p[4] in posI and p[5] in posT and p[-3] in posA and p[-2] in posT:
+                c = c+1
+                print(p)
+                
+afternoons
+
+leswitaatn
+l = a 
+e = f 
+s = t 
+w = e 
+i = r 
+t = n 
+a = o 
+n = s 
+
+#Probando con lvsglqqo
+for p in dic:
+    if len(p)==8:
+        if p[0] == p[4] and p[-2] == p[-3]:
+            if p[0] in posL and p[1] in posV and p[2] in posS and p[3] in posG:
+                c = c+1
+                print(p)
+
+actually
+
+lvsglqqo
+l = a 
+v = c 
+s = t 
+g = u 
+l = a 
+q = l
+o = y
+
+#Probando con sua
+for p in dic:
+    if len(p)==3:
+       # if p[0] == p[4] and p[-2] == p[-3]:
+            if p[0] in posS and p[2] in posA:
+                c = c+1
+                print(p)
+
+two
+
+sua
+s = t 
+u = w 
+o = o
+
+#Probando con slbw
+for p in dic:
+    if len(p)==4:
+       # if p[0] == p[4] and p[-2] == p[-3]:
+            if p[0] in posS and p[1] in posL and p[3] in posW:
+                c = c+1
+                print(p)
+
+take
+tame
+
+slbw
+s = t
+l = a 
+b = km 
+w = e
+
+#Probando con vakeais
+for p in dic:
+    if len(p)==7:
+        if p[1] == p[-3]:
+            if p[0] in posV and p[1] in posA and p[3] in posE and p[-2] in posI and p[-1] in posS:
+                c = c+1
+                print(p)
+
+comfort
+
+vakeais
+v = c 
+a = o 
+k = m 
+
+#Probando con kyrps
+for p in dic:
+    if len(p)==5:
+        #if p[1] == p[-3]:
+            if p[0] in posK and p[1] in posY and p[3] in posP and p[4] in posS:
+                c = c+1
+                print(p)
+
+might
+
+kyrps
+r = g
+
+#Probando con zw
+for p in dic:
+    if len(p)==2:
+        #if p[1] == p[-3]:
+            if p[1] in posW:
+                c = c+1
+                print(p)
+
+be
+
+zw
+z = b
+
+#Probando con dgns
+for p in dic:
+    if len(p)==4:
+        #if p[1] == p[-3]:
+            if p[1] in posG and p[2] in posN and p[3] in posS:
+                c = c+1
+                print(p)
+                
+just
+
+dgns
+d = j
+                
+Para encontrar la J jugamos con las letras que ya conocemos y tenemos que:
+
+vatnwjgwtsqo
+consequently
+j = q
+
+Posibles letras al terminar
+posA ="o"
+posB ="k"
+posC ="p"
+posD ="j"
+posE ="f"
+posG ="u"
+posH ="x"
+posI ="r"
+PosJ ="q"
+posK ="m"
+posL ="a"
+posN ="s"
+posO ="y"
+posP ="h"
+posQ ="l"
+posR ="g"
+posS ="t"
+posT ="n"
+posU ="w"
+posV ="c"
+posW ="e"
+posX ="d"
+posY ="i"
+posZ ="b"
+
+Alfabeto:       abcdefghijklmnopqrstuvwxyz
+Alfabeto llave: okpjfXuxrqmaXsyhlgtnwcedib
+
+
+Texto a descifrar: 
+nsyqq ngtxlo leswitaatn dgns leswi xyttwi uwiw nlviwx sa pyk ltx pyn yxwl ae naqyx vakeais uln sa zw qwes yt gsswi naqysgxw eai sua ai spiww pagin. vatnwjgwtsqo, pw eyhwx pyn wow eyikqo gcat spw qlswns iwcaisn ae spw qwewziw-oanpyxl whcwxysyat sa klin (spyn atw uln sa slbw aee eiak qgtli zlnw ltx kyrps lvsglqqo ngvvwwx) ltx ciwswtxwx npw ulnt’s spwiw
+
+Texto descrifrado: 
+still sunday afternoons just after dinner were sacred to him and his idea of solid comfort was to be left in utter solitude for two or three hours. consequently, he fixed his eye firmly upon the latest reports of the lefebre-yoshida expedition to mars (this one was to take off from lunar base and might actually succeed) and pretended she wasn’t there
+
+
+

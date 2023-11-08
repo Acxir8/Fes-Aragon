@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\Carrito\simulation\qsim
+vCarritoMueve
+Z1 !s100 P[CoSI[T36T]9]OM<`C983
+Z2 I93XE0l@REljmhCd5N`4jz2
+Z3 VmfnYhDdUJ0zLed>?kh@SC2
+Z4 dC:\Users\felip\Downloads\components\Carrito\simulation\qsim
+Z5 w1698726674
+Z6 8CarritoMueve.vo
+Z7 FCarritoMueve.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|CarritoMueve.vo|
+Z10 o-work work -O0
+Z11 n@carrito@mueve
+!i10b 1
+!s85 0
+Z12 !s108 1698726690.916000
+Z13 !s107 CarritoMueve.vo|
+!s101 -O0
+vCarritoMueve_vlg_check_tst
+!i10b 1
+!s100 AQQN5<d12K]o9XkYW<1153
+I3H5jmz`Dd;Fg<3LlDBQBl0
+Z14 V2]hfhQh44IN?U0Gk[ah8z2
+R4
+Z15 w1698726671
+Z16 8Waveform6.vwf.vt
+Z17 FWaveform6.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1698726691.923000
+Z19 !s107 Waveform6.vwf.vt|
+Z20 !s90 -work|work|Waveform6.vwf.vt|
+!s101 -O0
+R10
+Z21 n@carrito@mueve_vlg_check_tst
+vCarritoMueve_vlg_sample_tst
+!i10b 1
+!s100 MQTW0@PCdZ00HG72O62Yz3
+I:G]UbdkhSBC>]E5^9hiQJ2
+Z22 Vbf:`S8HI5KQfT0RC@^Id`3
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@carrito@mueve_vlg_sample_tst
+vCarritoMueve_vlg_vec_tst
+!i10b 1
+!s100 :7`:5=NMGj@k:R]EPeNKT2
+IdnfKjVJ3l0KQdhB?<Z4Y`0
+Z24 Vb1]NBc133hEVWCgajJoi50
+R4
+R15
+R16
+R17
+Z25 L0 324
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@carrito@mueve_vlg_vec_tst

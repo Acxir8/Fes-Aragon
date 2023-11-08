@@ -1,0 +1,22 @@
+demuMultiplexor:
+
+Contexto:
+Imagina una Unidad de Cuidados Intensivos (UCI) en un hospital, donde se monitorea a pacientes críticamente enfermos las 24 horas del día. En esta unidad, se utilizan varios sensores biomédicos para recopilar datos vitales, como señales de electrocardiograma (ECG) para monitorear la actividad cardíaca y señales de oximetría de pulso para medir los niveles de oxígeno en la sangre. Además, se emplean sensores de presión arterial, capnografía y más.
+
+Desafío:
+El desafío en esta situación es que se están recopilando múltiples señales de diferentes sensores biomédicos de varios pacientes simultáneamente. Estas señales deben ser procesadas y monitorizadas de manera eficiente para garantizar una atención médica adecuada y una respuesta inmediata a cualquier cambio en la condición del paciente.
+
+Solución:
+Se utiliza un sistema de procesamiento de señales biomédicas que incorpora demultiplexores. Cada paciente está equipado con varios sensores que recopilan datos biomédicos, y estos datos se transmiten a un equipo central de monitoreo.
+
+Demultiplexores: Los demultiplexores se utilizan para separar las señales de los diferentes sensores de cada paciente en tiempo real. Por ejemplo, las señales del ECG, oximetría de pulso y otros sensores se enrutan a canales separados utilizando demultiplexores.
+
+Monitoreo Centralizado: Después de separar las señales, los datos se envían a un sistema centralizado de monitoreo en la estación de enfermería o en una sala de control. Esto permite que el personal médico acceda a las señales de cada paciente de manera individual y las observe en tiempo real en monitores dedicados.
+
+Beneficios:
+
+Mejora en el Diagnóstico: Al separar y enrutar las señales de manera eficiente, los médicos y el personal de enfermería pueden realizar un seguimiento preciso de la actividad cardíaca, los niveles de oxígeno y otros parámetros vitales de cada paciente. Esto mejora la capacidad de diagnosticar problemas de salud de manera oportuna.
+
+Respuesta Rápida: La capacidad de observar y analizar las señales de múltiples sensores en tiempo real permite una respuesta más rápida ante cualquier cambio en la condición del paciente. Esto es crítico en una UCI, donde los segundos pueden marcar la diferencia.
+
+Menos Interferencia: Al separar las señales de diferentes sensores en canales distintos, se reduce la interferencia y la confusión de datos, lo que lleva a una monitorización más precisa.

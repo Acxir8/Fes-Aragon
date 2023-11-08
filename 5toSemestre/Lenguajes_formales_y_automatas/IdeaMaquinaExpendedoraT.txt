@@ -1,0 +1,26 @@
+AAA20
+AAA20=7
+Recorre a la izquierda
+borrando el código, dejando
+el número
+
+AAA19=6
+
+AAA13=0
+AAA13
+------------------
+AAA3
+AAA3=7
+
+AAA0=4
+
+NO
+-----------------
+AAA7
+AAA7=7
+
+AAA0=0
+-----------------
+AAA10
+AAA10=10
+AAA09=09

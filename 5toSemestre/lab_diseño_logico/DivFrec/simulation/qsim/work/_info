@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\DivFrec\simulation\qsim
+vDivFrec
+Z1 !s100 l;Ti3bkOaT>eEOoaMl0RZ3
+Z2 IIILFEEPT:J2WF^5S@6d`10
+Z3 VVHozCj[8QObXe9Z8C=`PK0
+Z4 dC:\Users\felip\Downloads\components\DivFrec\simulation\qsim
+Z5 w1696300976
+Z6 8DivFrec.vo
+Z7 FDivFrec.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|DivFrec.vo|
+Z10 o-work work -O0
+Z11 n@div@frec
+!i10b 1
+!s85 0
+Z12 !s108 1696300978.723000
+Z13 !s107 DivFrec.vo|
+!s101 -O0
+vDivFrec_vlg_check_tst
+!i10b 1
+!s100 ^z1bMQB3ifPgM3O^@X^e43
+IXgEG4RPb`Q3e>g^1GDeii2
+Z14 VgN2<>YoH0ZMj1n=3;HEiI2
+R4
+Z15 w1696300972
+Z16 8Waveform1.vwf.vt
+Z17 FWaveform1.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1696300978.998000
+Z19 !s107 Waveform1.vwf.vt|
+Z20 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R10
+Z21 n@div@frec_vlg_check_tst
+vDivFrec_vlg_sample_tst
+!i10b 1
+!s100 DlVcOG3Ka=IHdfM;G[GF>3
+IXbYI3Tzc>nMHhLT`=WADm1
+Z22 VYllV:NFc6`J@I9Q3aO4?Z0
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@div@frec_vlg_sample_tst
+vDivFrec_vlg_vec_tst
+!i10b 1
+!s100 KlZDL6SQ^c1nB^g^5j?ZJ1
+I>ANCGYFk2UVakhDVzLPWh2
+Z24 V1L8mS>Claob@_0;06fMZ<2
+R4
+R15
+R16
+R17
+Z25 L0 152
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@div@frec_vlg_vec_tst

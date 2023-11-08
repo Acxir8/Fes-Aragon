@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\Semaforo\simulation\qsim
+vSemaforo
+Z1 !s100 54_]C^d[HGd@BEagV?6?=3
+Z2 IJ1JSgPbF9VYlWMQZC]91P1
+Z3 V:d<Fe5I:8V^zLXWHGV;>B3
+Z4 dC:\Users\felip\Downloads\components\Semaforo\simulation\qsim
+Z5 w1698768712
+Z6 8Semaforo.vo
+Z7 FSemaforo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Semaforo.vo|
+Z10 o-work work -O0
+Z11 n@semaforo
+!i10b 1
+!s85 0
+Z12 !s108 1698768715.794000
+Z13 !s107 Semaforo.vo|
+!s101 -O0
+vSemaforo_vlg_check_tst
+!i10b 1
+!s100 YzeCH@j0g@H;LKK61D<jX1
+I?N>UD=UGfbfS7loXi77>D3
+Z14 VI<a:IT3NBeA[Ch;YjN78;1
+R4
+Z15 w1698768705
+Z16 8Waveform2.vwf.vt
+Z17 FWaveform2.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1698768718.354000
+Z19 !s107 Waveform2.vwf.vt|
+Z20 !s90 -work|work|Waveform2.vwf.vt|
+!s101 -O0
+R10
+Z21 n@semaforo_vlg_check_tst
+vSemaforo_vlg_sample_tst
+!i10b 1
+!s100 RI5z[Ki3Wm^zzj`TNT3:F2
+Il]3_anz0hO<T=PWC4O8=S1
+Z22 V3F>KcQ3G83IOEPOA;:R<60
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@semaforo_vlg_sample_tst
+vSemaforo_vlg_vec_tst
+!i10b 1
+!s100 aKZ0P8WC=A=EV`21;[Uo_2
+IV]2Ue:oFZgWBYHkb_ET:U0
+Z24 VX37YBACLiC81kk2D3OK0e3
+R4
+R15
+R16
+R17
+Z25 L0 206
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@semaforo_vlg_vec_tst
