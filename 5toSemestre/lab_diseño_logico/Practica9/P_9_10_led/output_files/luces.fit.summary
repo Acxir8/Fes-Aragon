@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Nov 14 21:25:09 2023
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : luces
+Top-level Entity Name : luces
+Family : MAX II
+Device : EPM1270T144C3
+Timing Models : Final
+Total logic elements : 71 / 1,270 ( 6 % )
+Total pins : 14 / 116 ( 12 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

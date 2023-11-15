@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\P_9_10_led\simulation\qsim
+vluces
+Z1 Ib02AdEOSLF]^LIJ:=aSLC3
+Z2 V9LB_`aHiH85:F0lzjGTfl1
+Z3 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica9\P_9_10_led\simulation\qsim
+Z4 w1700018726
+Z5 8luces.vo
+Z6 Fluces.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|luces.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 0E>3DdV:4RgF<o;l84LMN0
+!s85 0
+Z11 !s108 1700018726.874000
+Z12 !s107 luces.vo|
+!s101 -O0
+vluces_vlg_check_tst
+!i10b 1
+Z13 !s100 GDU0;AB=V0WlSoL:?1m^g1
+Z14 Ih]1F3fK[ilj1nOcFMY@zm0
+Z15 V3l>OA<0nbe?CDdT0k;eZe2
+R3
+Z16 w1700018725
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1700018726.928000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vluces_vlg_sample_tst
+!i10b 1
+Z22 !s100 ;A_n1?khcLV`ee`em6[=R0
+Z23 IBQJ4_8z<Gee4[oQZLjDZQ2
+Z24 V;gh3;:lFg2Je`3EJojXoc3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vluces_vlg_vec_tst
+!i10b 1
+Z25 !s100 27JodPVIk_lCV@919i]]E1
+Z26 IoFBW0gi_D0?54j:L7ZJD[0
+Z27 V7kXVRCI6JUOhMmCk_KTK80
+R3
+R16
+R17
+R18
+Z28 L0 362
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

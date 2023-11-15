@@ -1,0 +1,9 @@
+module Conta(input clk, res, Li, L2);
+   
+	input clk;
+	output[3:0] res;
+	
+	output[6:0] Li;
+	output[6:0] L2;
+	
+	reg[25:0]c=6
