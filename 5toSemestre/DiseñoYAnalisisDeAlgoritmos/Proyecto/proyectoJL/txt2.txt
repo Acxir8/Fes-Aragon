@@ -1,0 +1,204 @@
+EN CADA PASO SE ACTUALIZA CADA UNA DE LAS LISTAS DE LAS POSIBLES LETRAS
+PASO 1: dfccdu
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 6:
+        if i[2] == i[4]:
+            if i[0] == i[-2]:
+                if i[1] != i[-1]:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la D es una L, la F es una I, la C es una T y la U es una E
+PASO 2: czsc
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if i[0] == i[-1] and i[0] in posC:
+            if i[1] != i[-2]:
+                if i[1] not in (posU,posC,posF,posD) and i[-2] not in (posU,posC,posF,posD)  :
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles Z son A,H,O,R,U y las posibles S son C,R,U,A,O,F
+PASO 3: cvdb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[0] in posC:
+            if i[1] != i[-2]:
+                if i[1] not in (posU,posC,posF,posD) and i[-1] not in (posU,posC,posF,posD) and i[-2]in posD:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la V es una A o una O y la B es una C,K,D
+PASO 4: vx
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 2:
+        if i[0] != i[-1] and i[0] in posV:
+            if i[0] not in (posU,posC,posF,posD,posV,posB):
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles X son: D,M,S,T,X,F,H,N,R
+PASO 5: efxb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[0] in posC:
+            if i[1] != i[-2]:
+                if i[1] not in (posU,posC,posF,posD) and i[-1] not in (posU,posC,posF,posD) and i[-2]in posD:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles E son:Z,W,R,B,D,F,G,H,K,M,P,S
+PASO 6: luud
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[1] in posU:
+            if i[0] != i[-1]:
+                if i[0] not in (posU,posC,posF,posD,posV)  and i[-1]in posD:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTAS: En esta iteracion nos damos cuenta que las posibles L son: B,C,D,F,H,J,M,K,P,R,S,V,W,Y,Z
+PASO 7: wscfwlfub
+for i in diccionarioIngles:
+    if len(i) == 9:
+        if  i[3] == i[-3] and i[3] in posF:
+            if i[0] == i[4]:
+                if i[0] not in (posU,posC,posF,posD) and i[-1]in posB and i[-2] in posU:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la W es una S, la S una A, la B una D y la L una F
+PASO 8: hdfxb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 5:
+        if  i[-1] in posB and i[1] in posD and i[2] in posF and i[-2] in posX:
+            if i[0] not in (posU,posC,posF,posD,posV,posB,posS,posL)  :
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la H es una B
+PASO 9: esghu
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 5:
+        if  i[-1] in posU:
+            if i[0] != i[-1]:
+                if i[0] not in (posU,posC,posF,posD,posV,posB,posS,posL)  and i[1]in posS and i[1] != i[0] != i[2] != i[3] != i[4] and i[-2] in posH:
+                    contador += 1
+                    print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la E es un M, la G una Y
+PASO 10: czsc
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if i[0] in posC and i[0] == i[-1]:
+            if i[-2] in posS and  i[1] not in (posU,posC,posF,posD):
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la letra Z es una H
+PASO 11: pnwc
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[-1] in posC and i[-2] in posW:
+            if i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV) and i[1] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV):
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracioin nos damos cuenta que la N es una U y la P es una G,J o R
+PASO 12: yuau
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[-1] in posU and i[-1] == i [1]:
+            if i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV) and i[-2] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV):
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la Y es una W y la A es una r
+PASO 13: tnfcu
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[-1] in posU and i[-1] == i [1]:
+            if i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV) and i[-2] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV):
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos dimos cuenta que la T es una Q
+PASO 14: cvvo
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[1] in posV and i[1] == i[-2] and i[0] in posC:
+            if i[-1] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV) :
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos dimos cuenta que la O es un K
+PASO 15: zsqu
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[-1] in posU and i[1] in posS and i[0] in posZ:
+            if i[-2] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA) :
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la Q es una V o una Z
+PASO 16: kfqu
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if  i[-1] in posU and i[1] in posF and i[-2] in posQ:
+            if i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA) :
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la Q es una V y que la K es una G o J
+PASO 17: rvndb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 5:
+        if i[2:] in "ould" and i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA)  :
+                print(i)
+                contador += 1
+print(contador)
+NOTA: En este iteracion nos damos cuenta qwue la R es una C,G o W
+PASO 18: oouj
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if i[:-1] in "kee" and i[-1] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA) :
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la J es una P
+PASO 19: kvvb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 4:
+        if i[1:] in "ood" and i[0] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA) :
+            print(i)
+            contador += 1
+print(contador)
+NOTA:En esta iteracion nos damos cuenta que la K es una G y por lo tanto la P es una J
+PASO 20: wurvxb
+contador = 0
+for i in diccionarioIngles:
+    if len(i) == 6:
+        if i[:1] in "se" and i[3:] in "ond" and i[2] not in (posU,posC,posF,posD,posL,posB,posS,posZ,posW,posX,posG,posH,posE,posV,posO,posA) :
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la R es una C
+

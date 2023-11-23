@@ -1,0 +1,397 @@
+Posibles letras al iniciar (Texto2):
+
+posA="u"			
+posB="k"	
+posC="p"
+posD="n"	
+posE="l"
+posF="f"
+posH="s"
+posI="m"	
+posJ="z"	
+posK="r"	
+posL="b"	
+posM="w"	
+posN="i"	
+posO="h"	
+posP="e"	
+posQ="d"	
+posß="ß"
+posS="g"		
+posU="a"
+posÜ="ü"
+posW="v"
+posX="t"	
+posY="o"	
+posZ="c"		
+
+#alfabeto = 'aäbcdefghijklmnoöpqrßstuüvwxyz' 
+alfabetoLlave  = 'uXkpnlfXsmzrbwihXedXßgXaüXvtoc'
+
+#Probando con Ippk
+for p in dic:
+    if len(p)==4:
+        if p[1]==p[2] and (p[0]!=p[-1]):
+            c = c+1
+            print(p)
+			
+alle
+boot
+esst
+haar
+isst
+leer
+meer
+offb
+paar
+saat
+teer
+
+Ippk
+
+i = abehulmopst
+p = losaef		
+k = etrb
+
+#Probando con Hyiipk
+for p in dic:
+    if len(p)==6:
+        if p[2]==p[3] and p[-1]!= p[-2] and p[0]!= p[1]:
+            if p[2] in posI and p[-1] in posK and p[-2] in posP:
+                c = c+1
+                print(p)
+
+kommst
+mutter
+sollst
+sommer
+voller
+wasser
+willst
+zimmer
+
+Hyiipk
+
+h = kmsvwz
+y = ouai
+i = mtls
+
+#Probando con Hyddp
+for p in dic:
+    if len(p)==5:
+        if p[2]==p[-2] and p[-1]!= p[0] and p[0]!= p[1]:
+            if p[0] in posH and p[1] in posY and p[-1] in posP:
+                c = c+1
+                print(p)
+				
+mitte
+sonne
+wille
+zilla				
+
+Hyddp
+h = mswz
+y = io
+d = lnt 
+
+#Probando con Iuhhpd
+for p in dic:
+    if len(p)==6:
+        if p[2] == p[3]:
+           if p[0] in posI and p[2] in posH and p[4] in posP and p[-1] in posD:
+                c = c+1
+                print(p)
+
+lassen
+müssen
+sammen			
+
+Iuhhpd
+i = lms
+u = aü
+h = ms
+p = e 
+d = n
+
+#Probando con byiix
+for p in dic:
+    if len(p)==5:
+        if p[-2] == p[-3]:
+            if p[0] in posB and p[1] in posY and p[2] in posI:
+                c = c+1
+                print(p)
+
+bisse
+himme
+holla
+komme
+kommt
+nimmt
+posse
+solle
+solls
+sollt
+
+byiix
+b = bhknps
+y = io 
+i = lms 
+x = aets
+
+#Probando con Wnpep
+for p in dic:
+    if len(p)==5:
+        if p[-1] == p[-3] and p[0]!=p[1] and p[0]!=p[3] and p[1]!=p[3]:
+            if p[2] in posP:
+                c = c+1
+                print(p)
+
+biete
+diene
+diese
+drehe
+dreie
+fiele
+flehe
+freie
+freue
+gieße
+gnete
+hiebe
+hieße
+liebe
+liede
+liefe
+liege
+ließe
+miene
+niede
+obere
+riese
+siege
+siehe
+stehe
+szene
+tiefe
+tiere
+treue
+viele
+viere
+wiede
+wiege
+wiese
+ziege
+ziehe
+ziele
+zieme
+
+Wnpep
+w = bdfghlmnorstvwz
+n = irlnbtz
+p = e
+e = bdfghilnstuß
+
+#Probando con xkuspd
+for p in dic:
+    if len(p)==6:
+        #if p[1] == p[-2]:
+            if p[0] in posX and p[1] in posK and p[2] in posU and p[-2] in posP and p[-1] in posD:
+                c = c+1
+                print(p)
+
+traben
+trafen
+tragen
+traten
+trauen
+trüben
+trügen
+
+xkuspd
+x = t 
+k = r
+u = aü
+s = bfgtu 
+
+#Probando con Fküoends
+for p in dic:
+    if len(p)==8:
+       # if p[0] == p[4] and p[-2] == p[-3]:
+            if p[1] in posK and p[4] in posE and p[5] in posN and p[6] in posD and p[-1] in posS:
+                c = c+1
+                print(p)
+
+frühling
+	
+Fküoends			
+f = f
+k = r
+ü = ü
+o = h 
+e = l 
+n = i 
+d = n 
+s = g				
+			
+#Probando con hzomniipd
+for p in dic:
+    if len(p)==9:
+       if p[-3] == p[-4]:
+            if p[0] in posH and p[2] in posO and p[4] in posN and p[-4] in posI and p[-2] in posP and p[-1] in posD:
+                c = c+1
+                print(p)
+
+schlimmen
+schwimmen
+
+hzomniipd
+h = s 
+z = c 
+o = h 
+m = lw
+n = i 
+i = m 
+p = e 
+d = n
+			
+#Probando con ai
+for p in dic:
+    if len(p)==2:
+       # if p[1] == p[-3]:
+            if p[1] in posI:
+                c = c+1
+                print(p)				
+am
+em
+im
+um				
+
+ai 
+
+a = aeiu
+i = m		
+
+#Probando con Hxkudq
+for p in dic:
+    if len(p)==6:
+        #if p[1] == p[-3]:
+            if p[0] in posH and p[1] in posX and p[2] in posK and p[3] in posU and p[-2] in posD:
+                c = c+1
+                print(p)
+
+strand
+strang
+
+Hxkudq
+q = dg				
+				
+#Probando con qpi
+for p in dic:
+    if len(p)==3:
+        #if p[1] == p[-3]:
+            if p[0] in posQ and p[1] in posP and p[2] in posI:
+                c = c+1
+                print(p)
+
+dem
+
+qpi
+q = d
+			
+#Probando con sudjpd
+for p in dic:
+    if len(p)==6:
+        if p[-1] == p[-4]:
+            if p[0] in posS and p[1] in posU and p[2] in posD and p[-2] in posP:
+                c = c+1
+                print(p)
+			
+gangen
+ganzen
+		
+sudjpd	
+j = gz
+
+#Probando con opnß
+for p in dic:
+    if len(p)==4:
+       # if p[1] == p[-3]:
+            if p[0] in posO and p[2] in posN and p[1] in posP:
+                c = c+1
+                print(p) 
+
+heiß
+
+opnß
+ß = ß
+
+#Probando con Hcuß
+for p in dic:
+    if len(p)==4:
+       # if p[1] == p[-3]:
+            if p[0] in posH and p[2] in posU and p[-1] in posß:
+                c = c+1
+                print(p) 
+
+spaß
+
+Hcuß
+c = p
+
+#Probando con Wnpep
+for p in dic:
+    if len(p)==5:
+        if p[-1] == p[2]:
+            if p[1] in posN and p[2] in posP and p[3] in posE:
+                c = c+1
+                print(p) 
+
+viele
+ziele
+
+Wnpep
+w = vz
+			
+#Probando con oulpd
+for p in dic:
+    if len(p)==5:
+        #if p[-1] == p[2]:
+            if p[1] in posU and p[-2] in posP and p[-1] in posD and p[0] in posO:
+                c = c+1
+                print(p)
+
+haben
+
+oulpd		
+l = b		
+
+{'a': 5,
+ 'ä': 0, 
+ 'b': 1,
+ 'c': 1,
+ 'd': 26,
+ 'e': 5, 
+ 'f': 3, 
+ 'g': 0, 
+ 'h': 17,
+ 'i': 17,
+ 'j': 3, 
+ 'k': 12,
+ 'l': 3, 
+ 'm': 4,
+ 'n': 15,
+ 'o': 8, 
+ 'ö': 0,
+ 'p': 33,
+ 'q': 10,
+ 'r': 0, 
+ 'ß': 2,
+ 's': 7,
+ 't': 0, 
+ 'u': 12,
+ 'ü': 1, 
+ 'v': 0, 
+ 'w': 1, 
+ 'x': 5, 
+ 'y': 5, 
+ 'z': 3}

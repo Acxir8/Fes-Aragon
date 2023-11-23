@@ -1,0 +1,138 @@
+EN CADA PASO SE ACTUALIZA CADA UNA DE LAS LISTAS DE LAS POSIBLES LETRAS
+PASO 1: dãe
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 3:
+        if i[0] in posD and i[-1] in posE:
+            if i[1] == 'ã':
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la E es una O, y las posibles D son: D,M,N,S,T
+PASO 2: hew 
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 3:
+        if i[1] in posE and i[0] in posH and i[-1] in posW:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles H son: A,B,C,D,F,G,L,N,P,S y las posibles W son: S,A,M,R,W,I,V,L,U
+PASO 3: xddwd
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 5:
+        if i[1] in posD and i[2] in posD and i[-1] in posD and i[0] in posX and i[-2] in posW:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles D es una S,las posibles W son: I,A y las posibles X son: A,E
+PASO 4: mepe
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 4:
+        if i[-1] in posE and i[1] in posE:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles M son: C,F,L,T y las posibles P son: M,C,G,D
+PASO 5: xdfw
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 4:
+        if i[-1] in posW and i[1] in posD and i[0] in posX and i[-2] in posF:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la X es una E, la posibles F pueden ser S o T, pero como D es una S, es una T
+y la W es una A
+PASO 6: pecwgied
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 8:
+        if i[3] in posW and i[-1] in posD and i[-2] in posE and i[0] in posP:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la P es una M, la C es una R,la G es una N, la I es una G
+PASO 7: mrne 
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 4:
+        if i[0] in posM and i[1] in posR and i[-2] in posN and i[-1] in posE:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que las posibles M es una C y las R es una U,la N es una J
+PASO 8: wjmwjsgskwgfx
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 13:
+        if i[0] in posW and i[2] in posM and i[3] in posW and i[-1] in posX:
+                contador += 1
+                print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la J es una L, la M es una C, la S es una I,la K es una Z
+PASO 9: pxjlecwp
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 8:
+        if i[0] in posP and i[1] in posX and i[2] in posJ and i[3] in posL and i[-3] in posC:
+            contador += 1
+            print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la L es una H
+PASO 10: euwjsme
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 7:
+        if i[0] in posE and i[2] in posW and i[3] in posJ and i[4] in posS and i[-1] and posE:
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la U es una X
+PASO 11: brx
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 3:
+        if i[0] in posB and i[1] in posR and i[-1] in posX:
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la B es una Q
+PASO 12: asfwpsgw
+contador = 0
+for i in diccionarioPortugues:
+     if len(i) == 8:
+	if i[1] in posS and i[-1] in posW:
+	  print(i)
+          contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la A es una V
+PASO 13: ow
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 2:
+	    if i[0] in posO and i[-1] in posW:
+             contador += 1
+             print(i)
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la O es una D
+PASO 14: qegfx
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 5:
+        if i[0] in posQ and i[1] in posE and i[2] in posG and i[-2] in posF and i[-1] and posX:
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la Q es una P o una F
+PASO 15: 
+contador = 0
+for i in diccionarioPortugues:
+    if len(i) == 6:
+        if i[0] in posQ and i[1] in posS and i[2] in posH and i[3] in posC and i[-1] and posD:
+            print(i)
+            contador += 1
+print(contador)
+NOTA: En esta iteracion nos damos cuenta que la Q es una F y la H es una B

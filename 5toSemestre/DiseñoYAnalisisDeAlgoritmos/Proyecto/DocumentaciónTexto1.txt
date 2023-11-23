@@ -1,0 +1,459 @@
+Posibles letras al iniciar (Texto1):
+posA="abdefghijklopqrstuwxyz"			
+posB="abdefghijklopqrstuwxyz"
+posD="abdefghijklopqrstuwxyz"
+posE="abdefghijklopqrstuwxyz"
+posF="abdefghijklopqrstuwxyz" 
+posG="abdefghijklopqrstuwxyz"
+posH="abdefghijklopqrstuwxyz"
+posI="abdefghijklopqrstuwxyz" 
+posJ="abdefghijklopqrstuwxyz"
+posK="abdefghijklopqrstuwxyz"
+posL="abdefghijklopqrstuwxyz"
+posO="abdefghijklopqrstuwxyz"
+posP="abdefghijklopqrstuwxyz"
+posQ="abdefghijklopqrstuwxyz"
+posR="abdefghijklopqrstuwxyz"
+posS="abdefghijklopqrstuwxyz"
+posT="abdefghijklopqrstuwxyz"
+posU="abdefghijklopqrstuwxyz"
+posW="abdefghijklopqrstuwxyz"
+posX="abdefghijklopqrstuwxyz"
+posY="abdefghijklopqrstuwxyz"
+posZ="abdefghijklopqrstuwxyz"
+
+#Probando con gbbgrhiqoh
+for p in dic:
+    if len(p)==10:
+        if p[1]==p[2] and p[0]!=p[3] and p[-1] == p[-5]:
+            c = c+1
+            print(p)
+
+offensives  Volver a probar después
+
+gbbgrhiqoh
+g = o 
+b = f 
+r = n 
+h = s 
+i = i 
+q = v 
+o = ?
+
+#Probando con riafqeeq
+for p in dic:
+    if len(p)==8:
+        if p[-1]==p[-4] and p[-2]== p[-3] and p[0]!= p[-4] and p[0]!= p[-3]and p[1]!= p[-4] and p[1]!= p[-3]and p[2]!= p[-4] and p[2]!= p[-3]and p[3]!= p[-4] and p[3]!= p[-3]:
+            #if p[2] in posI and p[-1] in posK and p[-2] in posP:
+                c = c+1
+                print(p)
+				
+actuelle
+chouette
+confesse
+daînesse
+divresse
+doitelle
+détresse
+embrassa
+faitelle
+formelle
+houlette
+jadresse
+jehoadda
+livresse
+madresse
+mortelle
+noblesse
+nouvelle
+néchappa
+phygelle
+promesse
+prunelle
+rejailli
+richesse
+soitelle
+syrienne
+séchappa
+tadresse				
+
+riafqeeq
+r = acdefhjlmnprs
+i = aceéhimory
+a = bcdhîijnortuvy
+q = aei
+e = dlnstp
+
+#Probando con xqroiqr
+for p in dic:
+    if len(p)==7:
+        if p[1] == p[-2] and p[2] == p[-1]:
+           if p[1] in posQ and p[2] in posR and p[-3] in posI:
+                c = c+1
+                print(p)
+				
+dernier
+mesures
+pesâmes
+raseras
+restées
+
+xqroiqr
+x = dmpr
+q = ae 
+r = rs 
+o = âentu	
+i = irmré	
+
+#Probando con riafqeeq de nuevo
+for p in dic:
+    if len(p)==8:
+        if p[-1]==p[-4] and p[-2]== p[-3] and p[0]!= p[-4] and p[0]!= p[-3]and p[1]!= p[-4] and p[1]!= p[-3]and p[2]!= p[-4] and p[2]!= p[-3]and p[3]!= p[-4] and p[3]!= p[-3]:
+            if p[0] in posR and p[1] in posI and p[2] in posA and p[3] in posF and p[4] in posQ and p[5] in posE:
+                c = c+1
+                print(p)		
+
+richesse
+séchappa
+
+riafqeeq
+r = rs 
+i = ié
+a = c
+f = h 
+q = ae 
+e = ps
+
+#Probando con zqorq 
+for p in dic:
+    if len(p)==5:
+        if p[-1]==p[1]and p[-2] != p[-3] and p[0] != p[-1] and p[0] != p[-2]and p[0] != p[-3]and p[2] != p[-1]:
+            if p[1] in posQ and p[3] in posR and p[2] in posO:
+                c = c+1
+                print(p)
+				
+dansa
+genre
+heure
+jaera
+laura
+maura
+meure
+naura
+pense
+saura
+taura	
+
+zqorq 
+
+z = dghjlmnpst
+o = nue
+			
+#Probando con brioaibgwquqoh
+for p in dic:
+    if len(p)==14:
+        if p[-5] == p[-3] and p[0]== p[6] and p[2]==p[5] and p[3] == p[-2]:
+            if p[1] in posR and p[2] in posI and p[3] in posO and p[4] in posA and p[-3] in posQ:
+                c = c+1
+                print(p)			
+
+principalement	
+
+brioaibgwquqoh
+b = p 
+r = r 
+i = i 
+o = n 
+a = c 
+g = a 
+w = l 
+q = e 
+u = m 
+h = t
+			
+#Probando con brkbriqhqe
+for p in dic:
+    if len(p)==10:
+        if p[0] == p[3] and p[-2]==p[-4]:
+            if p[0] in posB and p[1] in posR and p[5] in posI:
+                c = c+1
+                print(p)
+				
+propriétés
+
+brkbriqhqe			
+b = p 
+r = r 
+k = o 
+i = i 
+q = eé
+h = t 
+e = s	
+
+#Probando con gpt
+for p in dic:
+    if len(p)==3:
+        #if p[1] == p[-2]:
+            if p[0] in posG and p[1] in posP and p[2] in posT:# and p[3] in posI:# and p[-2] in posP and p[-1] in posQ:
+                c = c+1
+                print(p)
+
+abi
+ada
+agi
+aie
+air
+ait
+ara
+ard
+asa
+aux
+âge	
+
+gpt
+g = a
+p = bdgirsu
+t = adeitx			
+
+#Probando con jpi
+for p in dic:
+    if len(p)==3:
+       # if p[0] == p[4] and p[-2] == p[-3]:
+            if p[1] in posP and p[2] in posI:
+                c = c+1
+                print(p)
+				
+fui
+lui
+oui
+ouï
+qui
+
+jpi
+j = floq
+
+#Probando con hrkplq
+for p in dic:
+    if len(p)==6:
+       #if p[1] == p[-3]:
+            if p[0] in posH and p[1] in posR and p[2] in posK and p[3] in posP and p[-2] in posL and p[-1] in posQ:
+                c = c+1
+                print(p)
+				
+troupe
+
+hrkplq
+h = t 
+r = r 
+k = o 
+p = u 
+l = p 
+q = e
+
+#Probando con hsbijpq
+for p in dic:
+    if len(p)==7:
+       #if p[1] == p[-3]:
+            if p[0] in posH and p[-2] in posP and p[3] in posI:# and p[-3] in posJ:
+                c = c+1
+                print(p)
+				
+tunique
+		
+hsbijpq
+h = t 
+s = u 
+b = n 
+i = i 
+j = q 		
+q = e
+
+#Probando con diyrqe
+for p in dic:
+    if len(p)==6:
+        #if p[1] == p[-3]:
+            if p[0] in posD and p[1] in posI and p[3] in posR and p[-2] in posQ and p[-1] in posE:
+                c = c+1
+                print(p)
+			
+libres
+livres
+livrés
+tiares
+titres
+			
+diyrqe			
+d = l
+i = i
+y = abtv
+r = r
+q = e 
+e = s
+
+#Probando con wg
+for p in dic:
+    if len(p)==2:
+        #if p[1] == p[2] and p[0] == p[7]:# and p[5] == p[-1]:
+            if p[1] in posG:
+                
+                c = c+1
+                print(p)
+
+dà
+ha
+la
+là
+ma
+na
+sa
+ta
+va
+çà
+
+wg
+w = dhlmnstvç
+
+#Probando con rkpzqe
+for p in dic:
+    if len(p)==6:
+        #if p[1] == p[5]:
+            if p[0] in posR and p[1] in posK and p[2] in posP and p[4] in posQ and p[-1] in posE:
+                c = c+1
+                print(p)
+				
+ronces
+rongés
+rouges
+roulés
+routes	
+
+rkpzqe			
+r = r 
+k = o 
+p = n 
+z = lg 
+
+#Probando con gwiuqohe
+for p in dic:
+    if len(p)==8:
+       # if p[1] == p[-3]:
+            if p[0] in posG and p[2] in posI and p[-1] in posE and p[-4] in posQ:
+                c = c+1
+                print(p)
+				
+agiteras
+aliments
+
+gwiuqohe
+g = a 
+w = gl 
+i = i 
+u = mt 
+q = e 
+o = nr
+h = at 
+e = s		
+
+#Probando con drpih
+for p in dic:
+    if len(p)==5:
+        #if p[0] == p[-4] and p[1] == p[-2]:
+            if p[1] in posR and p[3] in posI and p[-1] in posH:
+                c = c+1
+                print(p) 
+
+fruit
+	
+drpih
+d = f
+r = r 
+p = u
+i = i 
+h = t		
+
+#Probando con bwpe
+for p in dic:
+    if len(p)==4:
+        #if p[-1] == p[2]:
+            if p[1] in posW and p[2] in posP and p[-1] in posE:
+                c = c+1
+                print(p)	
+
+plus
+élus
+
+bwpe
+b = pé
+w = l 
+p = u 
+e = s
+
+#Probando con hrkplq
+for p in dic:
+    if len(p)==6:
+        #if p[1] == p[-3]:
+            if p[0] in posH and p[1] in posR and p[2] in posK and p[3] in posP and p[-1] in posQ:
+                c = c+1
+                print(p)
+				
+troupe
+trouve
+trouvé
+
+hrkplq
+h = t 
+r = r 
+k = o 
+p = u		
+l = pv 
+q = e		
+				
+				
+
+
+
+
+
+
+
+{'a': 29,
+ 'â': 0, 
+ 'à': 0,
+ 'b': 24,
+ 'c': 0, 
+ 'ç': 0, 
+ 'd': 12,
+ 'e': 55,
+ 'ê': 0,
+ 'é': 0, 
+ 'è': 0, 
+ 'ë': 0, 
+ 'f': 2, 
+ 'g': 73,
+ 'h': 61,
+ 'i': 63, 
+ 'ï': 0, 
+ 'î': 0, 
+ 'j': 11,
+ 'k': 42, 
+ 'l': 7, 
+ 'm': 0,
+ 'n': 0,
+ 'o': 57,
+ 'ô': 0,
+ 'œ': 0,
+ 'p': 38,
+ 'q': 125, 
+ 'r': 50, 
+ 's': 2, 
+ 't': 5, 
+ 'u': 19,
+ 'ü': 0,
+ 'û': 0,
+ 'ù': 0, 
+ 'v': 0, 
+ 'w': 41,
+ 'x': 23, 
+ 'y': 12,
+ 'z': 11}
+ 
