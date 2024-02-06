@@ -1,5 +1,5 @@
 Fitter report for semaforo
-Tue Nov 07 21:00:47 2023
+Tue Nov 07 21:44:04 2023
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -56,7 +56,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Fitter Summary                                                         ;
 +---------------------------+--------------------------------------------+
-; Fitter Status             ; Successful - Tue Nov 07 21:00:47 2023      ;
+; Fitter Status             ; Successful - Tue Nov 07 21:44:04 2023      ;
 ; Quartus II 64-Bit Version ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name             ; semaforo                                   ;
 ; Top-level Entity Name     ; semaforo                                   ;
@@ -125,7 +125,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 12     ;
+; Number detected on machine ; 4      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
@@ -133,7 +133,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.pin.
+The pin-out file can be found in C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.pin.
 
 
 +----------------------------------------------------------------+
@@ -556,20 +556,20 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.03 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info (144001): Generated suppressed messages file C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4827 megabytes
-    Info: Processing ended: Tue Nov 07 21:00:47 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Tue Nov 07 21:44:04 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.fit.smsg.
+The suppressed messages can be found in C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/semaforo/output_files/semaforo.fit.smsg.
 
 

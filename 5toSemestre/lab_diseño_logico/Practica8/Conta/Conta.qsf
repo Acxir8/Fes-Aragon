@@ -53,6 +53,7 @@ set_global_assignment -name VERILOG_FILE Contador.v
 set_global_assignment -name VERILOG_FILE Conta.v
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf

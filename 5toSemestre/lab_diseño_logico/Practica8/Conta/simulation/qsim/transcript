@@ -23,5 +23,5 @@
 # Loading work.Conta_vlg_sample_tst
 # Loading work.Conta_vlg_check_tst
 # Simulation passed !
-# ** Note: $finish    : Waveform.vwf.vt(469)
+# ** Note: $finish    : Waveform1.vwf.vt(469)
 #    Time: 1 us  Iteration: 0  Instance: /Conta_vlg_vec_tst/tb_out

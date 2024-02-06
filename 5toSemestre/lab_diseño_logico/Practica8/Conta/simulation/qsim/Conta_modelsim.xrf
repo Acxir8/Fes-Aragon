@@ -1,8 +1,9 @@
 vendor_name = ModelSim
 source_file = 1, Contador.v
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Conta.v
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform.vwf
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/db/Conta.cbx.xml
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Conta.v
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform.vwf
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform1.vwf
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/db/Conta.cbx.xml
 design_name = Conta
 instance = comp, \clk~I , clk, Conta, 1
 instance = comp, \c[2] , c[2], Conta, 1

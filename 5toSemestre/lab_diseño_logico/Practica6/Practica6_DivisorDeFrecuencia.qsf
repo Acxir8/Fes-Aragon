@@ -54,7 +54,7 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name VERILOG_FILE Practica6_DivisorDeFrecuencia.v
 set_global_assignment -name VERILOG_FILE DIV.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_location_assignment PIN_3 -to periodo

@@ -3,7 +3,7 @@ $comment
 		vcd file semaforo.msim.vcd -direction
 $end
 $date
-	Tue Nov 07 20:56:24 2023
+	Wed Nov 08 12:49:54 2023
 $end
 $version
 	ModelSim Version 10.1d

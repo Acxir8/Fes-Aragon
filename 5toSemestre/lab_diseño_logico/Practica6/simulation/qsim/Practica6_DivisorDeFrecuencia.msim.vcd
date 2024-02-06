@@ -3,7 +3,7 @@ $comment
 		vcd file Practica6_DivisorDeFrecuencia.msim.vcd -direction
 $end
 $date
-	Thu Oct 26 18:19:26 2023
+	Wed Nov 08 12:49:12 2023
 $end
 $version
 	ModelSim Version 10.1d

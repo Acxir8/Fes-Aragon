@@ -3,7 +3,7 @@ $comment
 		vcd file luces.msim.vcd -direction
 $end
 $date
-	Tue Nov 14 21:23:24 2023
+	Wed Nov 15 12:50:58 2023
 $end
 $version
 	ModelSim Version 10.1d

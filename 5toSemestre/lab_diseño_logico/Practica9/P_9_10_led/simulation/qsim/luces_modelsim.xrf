@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/luces.v
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/Waveform.vwf
-source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/db/luces.cbx.xml
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/luces.v
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/Waveform.vwf
+source_file = 1, C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica9/P_9_10_led/db/luces.cbx.xml
 design_name = luces
 instance = comp, \clk~I , clk, luces, 1
 instance = comp, \count[24] , count[24], luces, 1

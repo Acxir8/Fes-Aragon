@@ -7,8 +7,8 @@ vALU
 Z1 !s100 AEWOAW_b8C5>eHWAFho[:1
 Z2 ITZYRiKY0CbP1;6hKcY6OA3
 Z3 VbNUSM]ULeM7B_cTjP3BOF2
-Z4 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica_7\simulation\qsim
-Z5 w1699414208
+Z4 dC:\Users\USER\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica_7\simulation\qsim
+Z5 w1699469442
 Z6 8ALU.vo
 Z7 FALU.vo
 L0 31
@@ -20,7 +20,7 @@ Z10 o-work work -O0
 Z11 n@a@l@u
 !i10b 1
 !s85 0
-Z12 !s108 1699414209.245000
+Z12 !s108 1699469442.925000
 Z13 !s107 ALU.vo|
 !s101 -O0
 vALU_vlg_check_tst
@@ -29,7 +29,7 @@ Z14 !s100 LI[EL3QzVSP:ng<W_kGd`2
 Z15 IPic8]FZoC]>18@N8]4bn[2
 Z16 VY<AKBCHno>bd8=?JQ<S[f1
 R4
-Z17 w1699414207
+Z17 w1699469440
 Z18 8Waveform.vwf.vt
 Z19 FWaveform.vwf.vt
 L0 63
@@ -37,7 +37,7 @@ R8
 r1
 !s85 0
 31
-Z20 !s108 1699414209.290000
+Z20 !s108 1699469443.050000
 Z21 !s107 Waveform.vwf.vt|
 Z22 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0

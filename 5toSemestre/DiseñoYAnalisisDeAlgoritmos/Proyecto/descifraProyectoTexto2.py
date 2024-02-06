@@ -1,14 +1,14 @@
 import random
 
 def cargaPalabras():
-    archivo = open('C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/DiseñoYAnalisisDeAlgoritmos/Proyecto/diccionarioAleman.txt', 'r')
+    archivo = open('diccionarioAleman.txt', 'r')
     renglon = archivo.readline()
     palabras = renglon.split()
     print (len(palabras), 'palabras leidas')
     return palabras
 
 def cargaCifrado():
-    archivo = open('C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/DiseñoYAnalisisDeAlgoritmos/Proyecto/texto2.txt', 'r', encoding="utf8")
+    archivo = open('texto2.txt', 'r', encoding="utf8")
     renglon = archivo.readline().lower() 
     return renglon
 

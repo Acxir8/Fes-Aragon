@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Practica6_DivisorDeFrecuencia
-Sat Oct 21 22:36:22 2023
+Tue Nov 07 21:42:35 2023
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                             ;
 +-----------------------------+--------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sat Oct 21 22:36:22 2023      ;
+; Analysis & Synthesis Status ; Successful - Tue Nov 07 21:42:35 2023      ;
 ; Quartus II 64-Bit Version   ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name               ; Practica6_DivisorDeFrecuencia              ;
 ; Top-level Entity Name       ; DIV                                        ;
@@ -131,18 +131,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 12     ;
+; Number detected on machine ; 4      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                      ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                        ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
-; DIV.v                            ; yes             ; User Verilog HDL File  ; C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/DIV.v ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                   ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
+; DIV.v                            ; yes             ; User Verilog HDL File  ; C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/DIV.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -211,7 +211,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Sat Oct 21 22:36:21 2023
+    Info: Processing started: Tue Nov 07 21:42:33 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Practica6_DivisorDeFrecuencia -c Practica6_DivisorDeFrecuencia
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Warning (12019): Can't analyze file -- file Practica6_DivisorDeFrecuencia.v is missing
@@ -224,9 +224,9 @@ Info (21057): Implemented 12 device resources after synthesis - the final resour
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 10 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4590 megabytes
-    Info: Processing ended: Sat Oct 21 22:36:22 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4585 megabytes
+    Info: Processing ended: Tue Nov 07 21:42:35 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 

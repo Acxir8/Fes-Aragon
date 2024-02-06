@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica6\semaforo\simulation\qsim
 vsemaforo
-Z1 IAJ`4K0B65<f;Jd1iD7i<Q3
-Z2 VS3k_>E[_oL2Flg?1VFSM<2
-Z3 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica6\semaforo\simulation\qsim
-Z4 w1699412184
-Z5 8semaforo.vo
-Z6 Fsemaforo.vo
+Z1 !s100 LPYN53@^TJ3[;:7;h>7DA3
+Z2 I5S7j7YQ:BcY^7`jjT1heB1
+Z3 VS3k_>E[_oL2Flg?1VFSM<2
+Z4 dC:\Users\USER\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica6\semaforo\simulation\qsim
+Z5 w1699469393
+Z6 8semaforo.vo
+Z7 Fsemaforo.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|semaforo.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 7`k>o9<4WoB14X7bGKRNN3
 !s85 0
-Z10 !s108 1699412184.694000
-Z11 !s107 semaforo.vo|
-Z12 !s90 -work|work|semaforo.vo|
+Z11 !s108 1699469394.318000
+Z12 !s107 semaforo.vo|
 !s101 -O0
 vsemaforo_vlg_check_tst
 !i10b 1
-!s100 ?;DkcVWSQ>Y<C>1]`^EiO3
-IJ[B`;zU;o[ThOXQ[O6m`>3
-VUEnnfnFT@f;F5hDI6Y0:02
-R3
-Z13 w1699412183
-Z14 8Waveform.vwf.vt
-Z15 FWaveform.vwf.vt
+Z13 !s100 ?;DkcVWSQ>Y<C>1]`^EiO3
+Z14 IJ[B`;zU;o[ThOXQ[O6m`>3
+Z15 VUEnnfnFT@f;F5hDI6Y0:02
+R4
+Z16 w1699469391
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
 L0 57
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1699412184.740000
-Z17 !s107 Waveform.vwf.vt|
-Z18 !s90 -work|work|Waveform.vwf.vt|
+Z19 !s108 1699469394.407000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R8
+R10
 vsemaforo_vlg_sample_tst
 !i10b 1
-!s100 1Z0L79YNjahPK``2:Vk=;3
-I9G@hK;VeFg4WU:^:QX0_o1
-V`V>Y=cRo@KlN5h6P1[1RD1
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 1Z0L79YNjahPK``2:Vk=;3
+Z23 I9G@hK;VeFg4WU:^:QX0_o1
+Z24 V`V>Y=cRo@KlN5h6P1[1RD1
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vsemaforo_vlg_vec_tst
 !i10b 1
-!s100 G0dF0468Be=O:1`dn8>C^2
-ITg47Na=0`D`TRm2eEnk_j3
-V9i]<XB@cjdiSzoNNz[7<O0
-R3
-R13
-R14
-R15
-L0 206
-R7
-r1
-!s85 0
-31
+Z25 !s100 G0dF0468Be=O:1`dn8>C^2
+Z26 ITg47Na=0`D`TRm2eEnk_j3
+Z27 V9i]<XB@cjdiSzoNNz[7<O0
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 206
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

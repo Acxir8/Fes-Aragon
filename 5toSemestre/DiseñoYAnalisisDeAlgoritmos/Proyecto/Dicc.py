@@ -1,6 +1,6 @@
 palabras = []
 def cargaPalabras():
-    archivo = open('C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/DiseñoYAnalisisDeAlgoritmos/Proyecto/DonQuijoteVonDerManchaAleman.txt', 'r', encoding="utf8")
+    archivo = open('DonQuijoteVonDerManchaAleman.txt', 'r', encoding="utf8")
     renglon = archivo.readlines()
     return renglon
 
@@ -23,7 +23,7 @@ def crearDiccionario(palabras):
 
             
 def escribirDiccionario(palabras):
-    nArchivo = "C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/DiseñoYAnalisisDeAlgoritmos/Proyecto/diccionarioAleman.txt"
+    nArchivo = "diccionarioAleman.txt"
     archivo = open(nArchivo, "w")
     for l in palabras:
         archivo.write(l + " ")

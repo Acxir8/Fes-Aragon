@@ -1,5 +1,5 @@
 Flow report for Conta
-Tue Nov 14 21:24:22 2023
+Wed Nov 15 13:01:25 2023
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Flow Summary                                                           ;
 +---------------------------+--------------------------------------------+
-; Flow Status               ; Successful - Tue Nov 14 21:24:22 2023      ;
+; Flow Status               ; Successful - Wed Nov 15 13:01:25 2023      ;
 ; Quartus II 64-Bit Version ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name             ; Conta                                      ;
 ; Top-level Entity Name     ; Conta                                      ;
@@ -103,7 +103,13 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4527 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4527 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4527 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:06                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -127,6 +133,12 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; DESKTOP-O0AC03T  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-O0AC03T  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-O0AC03T  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-GHEN1BD  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -148,6 +160,12 @@ quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=veri
 quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/ Conta -c Conta
 quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Conta -c Conta --vector_source=C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform.vwf --testbench_file=C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/Waveform.vwf.vt
 quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/ Conta -c Conta
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Conta -c Conta --vector_source=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform.vwf --testbench_file=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/ Conta -c Conta
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Conta -c Conta --vector_source=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform.vwf --testbench_file=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/ Conta -c Conta
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Conta -c Conta --vector_source=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/Waveform1.vwf --testbench_file=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/Waveform1.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/USER/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica8/Conta/simulation/qsim/ Conta -c Conta
 
 
 
