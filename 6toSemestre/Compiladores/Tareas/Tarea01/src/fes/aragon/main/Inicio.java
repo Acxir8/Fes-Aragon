@@ -6,9 +6,10 @@ public class Inicio {
 	public static void main(String[] args) {
 		Archivos archivos = new Archivos();
 		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\marianela.fes";
+		//String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\LaBibliaPortugues.fes";
 		String nombreArchivoEscritura = "Escrito.fes";
 
-//		//Lecturas
+		//Lecturas
 		archivos.leerArchivo(nombreArchivo);
 		archivos.imprimirArchivo();
 
