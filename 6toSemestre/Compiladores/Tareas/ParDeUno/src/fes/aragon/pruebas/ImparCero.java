@@ -1,13 +1,13 @@
 package fes.aragon.pruebas;
 
-import java.util.ArrayList;
-
 import fes.aragon.palabras.Palabras;
 
-public class ParUno {
+import java.util.ArrayList;
+
+public class ImparCero {
 	Palabras palabras = new Palabras();
 
-	public void revisarParUno() {
+	public void revisarImparCero() {
 		ArrayList<String> palabrasGuardadas = palabras.getPalabras();
 
 		int indiceDelArray = 0;
@@ -20,9 +20,9 @@ public class ParUno {
 				switch (estado) {
 				case 0:
 					if (c == '1') {
-						estado = 1;
-					} else if (c == '0') {
 						estado = 0;
+					} else if (c == '0') {
+						estado = 1;
 					} else {
 						error = true;
 						indiceDeLaPalabra = palabrasGuardadas.size() + 1;
@@ -30,9 +30,9 @@ public class ParUno {
 					break;
 				case 1:
 					if (c == '1') {
-						estado = 0;
-					} else if (c == '0') {
 						estado = 1;
+					} else if (c == '0') {
+						estado = 0;
 					} else {
 						error = true;
 						indiceDeLaPalabra = palabrasGuardadas.size() + 1;
@@ -43,7 +43,7 @@ public class ParUno {
 			}
 			if (!error) {
 
-				if (estado == 0) {
+				if (estado == 1) {
 					System.out.println("Valida");
 				} else {
 					System.out.println("Invalido");
