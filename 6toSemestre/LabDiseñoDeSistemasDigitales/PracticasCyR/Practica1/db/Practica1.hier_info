@@ -1,0 +1,87 @@
+|Exceso3
+systemA => systemA.IN1
+systemB => systemB.IN3
+systemC => systemC.IN5
+systemD => systemD.IN6
+w <= myOR:OR2.z
+x <= myOR:OR5.z
+y <= myOR:OR3.z
+z <= myNOT:NOT1.z
+
+
+|Exceso3|myOR:OR1
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myAND:AND1
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myOR:OR2
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myNAND:NAND2
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myAND:AND4
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myOR:OR4
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myNOT:NOT2
+a => z.DATAIN
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myAND:AND5
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myOR:OR5
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myNAND:NAND1
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myAND:AND3
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myOR:OR3
+a => z.IN0
+b => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Exceso3|myNOT:NOT1
+a => z.DATAIN
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+

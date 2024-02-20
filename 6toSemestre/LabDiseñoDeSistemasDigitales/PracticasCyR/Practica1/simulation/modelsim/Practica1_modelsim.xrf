@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/EnriqueMV/Desktop/Fes-Aragon/5toSemestre/lab_diseño_logico/Practica6/myAND.v
+source_file = 1, H:/Lab Diseño de sistemas digitales/Practicas CyR/Practica 1/db/Practica1.cbx.xml
+design_name = myAND
+instance = comp, \z~output , z~output, myAND, 1
+instance = comp, \b~input , b~input, myAND, 1
+instance = comp, \a~input , a~input, myAND, 1
+instance = comp, \z~0 , z~0, myAND, 1

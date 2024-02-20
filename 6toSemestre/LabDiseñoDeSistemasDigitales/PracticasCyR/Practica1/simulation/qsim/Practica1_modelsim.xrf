@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, H:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/Waveform1.vwf
+source_file = 1, H:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/Exceso3.v
+source_file = 1, H:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/db/Practica1.cbx.xml
+design_name = Exceso3
+instance = comp, \w~output , w~output, Exceso3, 1
+instance = comp, \x~output , x~output, Exceso3, 1
+instance = comp, \y~output , y~output, Exceso3, 1
+instance = comp, \z~output , z~output, Exceso3, 1
+instance = comp, \systemD~input , systemD~input, Exceso3, 1
+instance = comp, \systemA~input , systemA~input, Exceso3, 1
+instance = comp, \systemC~input , systemC~input, Exceso3, 1
+instance = comp, \systemB~input , systemB~input, Exceso3, 1
+instance = comp, \OR2|z , OR2|z, Exceso3, 1
+instance = comp, \OR5|z~0 , OR5|z~0, Exceso3, 1
+instance = comp, \OR3|z~0 , OR3|z~0, Exceso3, 1
