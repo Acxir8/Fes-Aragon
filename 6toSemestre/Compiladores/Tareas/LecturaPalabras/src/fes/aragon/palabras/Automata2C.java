@@ -2,9 +2,7 @@ package fes.aragon.palabras;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
-
-public class Automata2 {
+public class Automata2C {
 
     private int indice=0;
     private String cadena="";
@@ -13,7 +11,7 @@ public class Automata2 {
 
 
     public static void main(String[] args) {
-        Automata2 app=new Automata2();
+        Automata2C app=new Automata2C();
 
         // Leer Archivos
 //		Scanner scanner = new Scanner(System.in);
