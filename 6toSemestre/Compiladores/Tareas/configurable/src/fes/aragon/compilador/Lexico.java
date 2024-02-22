@@ -1,5 +1,7 @@
 package fes.aragon.compilador;
 
+import fes.aragon.herramientas.Herramienta;
+
 public class Lexico {
 	private int indice = 0;
 	private int error = -1;
@@ -15,6 +17,13 @@ public class Lexico {
 		super();
 	}
 
+	private void reinicio() {
+		indice = 0;
+		estado = 0;
+		columna = 0;
+
+	}
+
 	public void setToken(String token) {
 		this.token = token;
 	}
@@ -23,8 +32,10 @@ public class Lexico {
 		char caracter = ' ';
 		if (indice < token.length()) {
 			caracter = token.charAt(indice);
-			if (caracter == ' ' && indice < token.length())
+			if (caracter == ' ' && indice < token.length()) {
+				reinicio();
 				throw new Exception("Cadena Invalida ---> Espacio entre palabras encontrado");
+			}
 			indice++;
 		}
 		return caracter;
@@ -32,6 +43,7 @@ public class Lexico {
 
 	public int inicio() throws Exception {
 		char c = ' ';
+		reinicio();
 		do {
 			c = siguienteCaracter();
 			if (Herramienta.letra(c)) {
@@ -46,6 +58,7 @@ public class Lexico {
 			if (error != 0) {
 				estado = matrix[estado][columna];
 			} else {
+				reinicio();
 				throw new Exception("Caracter invalido");
 			}
 

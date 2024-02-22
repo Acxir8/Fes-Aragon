@@ -1,4 +1,4 @@
-package fes.aragon.compilador;
+package fes.aragon.herramientas;
 
 public class Herramienta {
 	public static boolean letra(char c) {
