@@ -3,10 +3,10 @@ systemA => systemA.IN1
 systemB => systemB.IN3
 systemC => systemC.IN5
 systemD => systemD.IN6
-w <= myOR:OR2.z
-x <= myOR:OR5.z
-y <= myOR:OR3.z
-z <= myNOT:NOT1.z
+w << myOR:OR2.z
+x << myOR:OR5.z
+y << myOR:OR3.z
+z << myNOT:NOT1.z
 
 
 |Exceso3|myOR:OR1

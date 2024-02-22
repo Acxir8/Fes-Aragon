@@ -4,23 +4,23 @@ K3
 cModel Technology
 Z0 dH:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
 vExceso3
-Z1 !s100 I`I<AK^^76F?7UdFm6^EL1
-Z2 I5CXXT26z88c@UJ9dIc]hS3
-Z3 V6KB4BYH1oRE:4=z3mX_fB3
-Z4 dH:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
-Z5 w1708128274
-Z6 8Practica1.vo
-Z7 FPractica1.vo
+Z1 IzD=km>RfKHdk[C?PI<9NA1
+Z2 V6KB4BYH1oRE:4=z3mX_fB3
+Z3 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\6toSemestre\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
+Z4 w1708476933
+Z5 8Practica1.vo
+Z6 FPractica1.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|Practica1.vo|
-Z10 o-work work -O0
-Z11 n@exceso3
+Z8 !s90 -work|work|Practica1.vo|
+Z9 o-work work -O0
+Z10 n@exceso3
 !i10b 1
+Z11 !s100 5^;FJnA>I6=U0=01Rm=[K0
 !s85 0
-Z12 !s108 1708128276.304000
+Z12 !s108 1708476935.060000
 Z13 !s107 Practica1.vo|
 !s101 -O0
 vExceso3_vlg_check_tst
@@ -28,75 +28,75 @@ vExceso3_vlg_check_tst
 Z14 !s100 f@;^VZ:TE>6ZX>>flIb>g2
 Z15 I:2`^MAW?A3IQ]^BGoC?_02
 Z16 V8_FPFH@<`XWWbDW<h5d^51
-R4
-R5
-Z17 8Waveform1.vwf.vt
-Z18 FWaveform1.vwf.vt
+R3
+Z17 w1708476932
+Z18 8Waveform1.vwf.vt
+Z19 FWaveform1.vwf.vt
 L0 63
-R8
+R7
 r1
 !s85 0
 31
-Z19 !s108 1708128276.828000
-Z20 !s107 Waveform1.vwf.vt|
-Z21 !s90 -work|work|Waveform1.vwf.vt|
+Z20 !s108 1708476935.124000
+Z21 !s107 Waveform1.vwf.vt|
+Z22 !s90 -work|work|Waveform1.vwf.vt|
 !s101 -O0
-R10
-Z22 n@exceso3_vlg_check_tst
+R9
+Z23 n@exceso3_vlg_check_tst
 vExceso3_vlg_sample_tst
 !i10b 1
-Z23 !s100 >]BV?[MnPoDoE[kLllQP61
-Z24 IQohb7c6`X8QLldPCcgL880
-Z25 V2Ug[f]Xd`ILfP8]hN`P;43
-R4
-R5
+Z24 !s100 >]BV?[MnPoDoE[kLllQP61
+Z25 IQohb7c6`X8QLldPCcgL880
+Z26 V2Ug[f]Xd`ILfP8]hN`P;43
+R3
 R17
 R18
+R19
 L0 29
-R8
+R7
 r1
 !s85 0
 31
-R19
 R20
 R21
+R22
 !s101 -O0
-R10
-Z26 n@exceso3_vlg_sample_tst
+R9
+Z27 n@exceso3_vlg_sample_tst
 vExceso3_vlg_vec_tst
 !i10b 1
-Z27 !s100 d<9]Sh>h:?82d6CmV4lkz3
-Z28 ID_1cZ>h1NkZB0YA[ICFa]0
-Z29 VlJmU@njj@L;`:lFPd=@762
-R4
-R5
+!s100 2ig11`ST7UoR0[;4KIRJT3
+I4CI]:h@<o[HV;zX2SX92F3
+Z28 VlJmU@njj@L;`:lFPd=@762
+R3
 R17
 R18
-Z30 L0 239
-R8
+R19
+Z29 L0 239
+R7
 r1
 !s85 0
 31
-R19
 R20
 R21
+R22
 !s101 -O0
-R10
-Z31 n@exceso3_vlg_vec_tst
+R9
+Z30 n@exceso3_vlg_vec_tst
 vmyAND
-Z32 !s100 Hd?AlB2i>:0IMf289gQmK3
-Z33 Ij^i4Zg_UF3<[zg^>MCPOB1
-Z34 V=ZzH>9iI630F_5DjHam023
-R4
+Z31 !s100 Hd?AlB2i>:0IMf289gQmK3
+Z32 Ij^i4Zg_UF3<[zg^>MCPOB1
+Z33 V=ZzH>9iI630F_5DjHam023
+Z34 dH:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
 Z35 w1708060232
+R5
 R6
-R7
 L0 31
-R8
+R7
 r1
 31
+R8
 R9
-R10
 Z36 nmy@a@n@d
 Z37 !s108 1708060231.962000
 R13
@@ -107,18 +107,18 @@ vmyAND_vlg_check_tst
 Z38 !s100 Dd[3O[R^SR<;T9Vg7LOAL2
 Z39 IPF]WBHlNQFQj>Em10LamS2
 Z40 VNDMJY8XzC[=LcV932DMCM0
-R4
+R34
 Z41 w1708060230
-R17
 R18
+R19
 L0 59
-R8
+R7
 r1
 31
 Z42 !s108 1708060232.469000
 Z43 !s107 Waveform1.vwf.vt|
-R21
-R10
+R22
+R9
 Z44 nmy@a@n@d_vlg_check_tst
 !i10b 1
 !s85 0
@@ -127,18 +127,18 @@ vmyAND_vlg_sample_tst
 Z45 !s100 [hH2hQf1]N?3KM>eN3D7h2
 Z46 I5nnZVCa@5>BUESW`]<4G[3
 Z47 VnOHz]=A`:aOnYT>jH8kEe1
-R4
+R34
 R41
-R17
 R18
+R19
 L0 29
-R8
+R7
 r1
 31
 R42
 R43
-R21
-R10
+R22
+R9
 Z48 nmy@a@n@d_vlg_sample_tst
 !i10b 1
 !s85 0
@@ -146,18 +146,18 @@ Z48 nmy@a@n@d_vlg_sample_tst
 vmyAND_vlg_vec_tst
 Z49 I0o?J_mjaJX?20?R:]``T;3
 Z50 VJC`g8I>QdTzPDAJXI:0oH2
-R4
+R34
 R41
-R17
 R18
+R19
 Z51 L0 154
-R8
+R7
 r1
 31
 R42
 R43
-R21
-R10
+R22
+R9
 Z52 nmy@a@n@d_vlg_vec_tst
 Z53 !s100 AcVbF5P5KAzDOZO[<4j1f2
 !i10b 1

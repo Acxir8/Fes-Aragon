@@ -17,7 +17,7 @@ public class Herramienta {
 		return numero;
 	}
 
-	public static boolean finCadena(char c) {
+	public static boolean finCadena(char c){
 		boolean fc = false;
 		if (c == 32) {
 			fc = true;

@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "02/16/2024 18:04:31"
+// Generated on "02/20/2024 18:55:32"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    Exceso3
 // 
@@ -268,8 +268,8 @@ Exceso3 i1 (
 initial
 begin
 	systemA = 1'b0;
-	systemA = #400000 1'b1;
-	systemA = #400000 1'b0;
+	systemA = #480000 1'b1;
+	systemA = #480000 1'b0;
 end 
 
 // systemB
@@ -278,26 +278,34 @@ begin
 	repeat(2)
 	begin
 		systemB = 1'b0;
-		systemB = #200000 1'b1;
-		# 200000;
+		systemB = #240000 1'b1;
+		# 240000;
 	end
 	systemB = 1'b0;
 end 
 
 // systemC
-always
+initial
 begin
+	repeat(4)
+	begin
+		systemC = 1'b0;
+		systemC = #120000 1'b1;
+		# 120000;
+	end
 	systemC = 1'b0;
-	systemC = #100000 1'b1;
-	#100000;
 end 
 
 // systemD
-always
+initial
 begin
+	repeat(8)
+	begin
+		systemD = 1'b0;
+		systemD = #60000 1'b1;
+		# 60000;
+	end
 	systemD = 1'b0;
-	systemD = #50000 1'b1;
-	#50000;
 end 
 
 Exceso3_vlg_sample_tst tb_sample (
