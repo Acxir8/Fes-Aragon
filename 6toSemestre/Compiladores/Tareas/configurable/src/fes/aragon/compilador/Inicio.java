@@ -4,7 +4,7 @@ public class Inicio {
 
 	public static void main(String[] args) {
 		Lexico app = new Lexico();
-		app.setToken("Mike ");
+		app.setToken("Mike h");
 		try {
 			int verifica = app.inicio();
 			if (verifica == 1) {
