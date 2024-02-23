@@ -7,8 +7,8 @@ vsemaforo
 Z1 !s100 LPYN53@^TJ3[;:7;h>7DA3
 Z2 I5S7j7YQ:BcY^7`jjT1heB1
 Z3 VS3k_>E[_oL2Flg?1VFSM<2
-Z4 dC:\Users\USER\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica6\semaforo\simulation\qsim
-Z5 w1699469393
+Z4 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\5toSemestre\lab_diseño_logico\Practica6\semaforo\simulation\qsim
+Z5 w1708652963
 Z6 8semaforo.vo
 Z7 Fsemaforo.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|semaforo.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1699469394.318000
+Z11 !s108 1708652964.008000
 Z12 !s107 semaforo.vo|
 !s101 -O0
 vsemaforo_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 ?;DkcVWSQ>Y<C>1]`^EiO3
 Z14 IJ[B`;zU;o[ThOXQ[O6m`>3
 Z15 VUEnnfnFT@f;F5hDI6Y0:02
 R4
-Z16 w1699469391
+Z16 w1708652962
 Z17 8Waveform.vwf.vt
 Z18 FWaveform.vwf.vt
 L0 57
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1699469394.407000
+Z19 !s108 1708652964.065000
 Z20 !s107 Waveform.vwf.vt|
 Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0

@@ -1,0 +1,5 @@
+module Blink(clk, led):
+	input clk;
+	output led;
+	
+	reg [24:0] c = 25'b0;

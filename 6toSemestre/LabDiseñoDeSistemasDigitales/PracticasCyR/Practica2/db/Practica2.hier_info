@@ -1,0 +1,29 @@
+|Blink
+clk => c[0].CLK
+clk => c[1].CLK
+clk => c[2].CLK
+clk => c[3].CLK
+clk => c[4].CLK
+clk => c[5].CLK
+clk => c[6].CLK
+clk => c[7].CLK
+clk => c[8].CLK
+clk => c[9].CLK
+clk => c[10].CLK
+clk => c[11].CLK
+clk => c[12].CLK
+clk => c[13].CLK
+clk => c[14].CLK
+clk => c[15].CLK
+clk => c[16].CLK
+clk => c[17].CLK
+clk => c[18].CLK
+clk => c[19].CLK
+clk => c[20].CLK
+clk => c[21].CLK
+clk => c[22].CLK
+clk => c[23].CLK
+clk => c[24].CLK
+led <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
