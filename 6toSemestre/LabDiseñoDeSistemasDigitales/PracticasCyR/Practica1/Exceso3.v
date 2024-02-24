@@ -1,16 +1,16 @@
-module myAND(input a, input b, output z);
+module myAND(input a, input b, output z); //Modulo para generar la compuerta AND entre 2 valores
 	assign z = a & b;
 endmodule
 
-module myOR(input a, input b, output z);
+module myOR(input a, input b, output z); //Modulo para generar la compuerta OR entre 2 valores
 	assign z = a|b;
 endmodule
 
-module myNOT(input a, output z);
+module myNOT(input a, output z); //Modulo para generar la compuerta NOT de 1 valor
 	assign z = ~a;
 endmodule
 
-module myNAND(input a, input b, output z);
+module myNAND(input a, input b, output z); //Modulo para generar la compuerta NAND entre 2 valores
 	assign z = ~a & ~b;
 endmodule
 
@@ -21,7 +21,7 @@ module Exceso3 (input systemA, input systemB, input systemC, input systemD, outp
 	wire NOTtoAND1;
 	wire NOTtoAND2;
 	wire ANDtoOR2;
-	wire ANDtoOR3;
+	wire ANDtoOR3;  //Declaramos las coneciones o cables, variables wire para almacenar datos entre operaciones
 	wire NANDtoAND;
 	wire ANDtoOR5;
 	wire ORtoAND5;

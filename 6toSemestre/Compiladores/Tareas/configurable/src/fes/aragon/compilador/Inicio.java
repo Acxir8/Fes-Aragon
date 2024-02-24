@@ -20,7 +20,9 @@ public class Inicio {
 //			System.out.println(e);
 //		}
 		Archivos archivo = new Archivos();
-		archivo.analizarPalabras();
+		// archivo.analizarPalabras();
+		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\Matriz";
+		archivo.leerMatriz(nombreArchivo);
 
 	}
 
