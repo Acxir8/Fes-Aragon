@@ -20,14 +20,14 @@ public class Archivos {
 
 	// Creamos una lista simple
 	String[] token = new String[15];
-	public ArrayList<String> lenguaje = new ArrayList<String>();
 	public ArrayList<String> documento = new ArrayList<String>();
 	int[][] matriz;
+	String[] lenguaje;
 
 	// Objetos
 	Lexico app = new Lexico();
 
-	public void leerMatriz(String nombreArchivo) {
+	public int[][] leerMatriz(String nombreArchivo) {
 		try {
 			lector = new BufferedReader(new InputStreamReader(new FileInputStream(nombreArchivo), "utf-8"));
 			linea = lector.readLine();
@@ -37,10 +37,12 @@ public class Archivos {
 			while ((linea = lector.readLine()) != null) {
 				token = linea.split(" ");
 				if (!lenguajeRegistrado) { // Registra la segunda línea del documento en el array lenguaje
+					String[] lenguaje = new String[token.length];
 					for (i = 0; i < token.length; i++) {
-						lenguaje.add(token[i]);
+						lenguaje[i] = token[i];
 						lenguajeRegistrado = true;
 					}
+					this.lenguaje = lenguaje;
 				} else {// Registra el resto de lineas del documento o estados en la matriz
 					for (i = 0; i < token.length; i++) {
 						matriz[indiceFilas][i] = Integer.parseInt(token[i]);
@@ -51,9 +53,12 @@ public class Archivos {
 			}
 			lector.close();
 			linea = null;
+			this.matriz = matriz;
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
 		}
+		return matriz;
+
 	}
 
 	private void leerPalabras(String nombreArchivo) {
@@ -75,23 +80,49 @@ public class Archivos {
 	}
 
 	public void analizarPalabras() {
-		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\palabras";
+		String nombreArchivoM = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\matriz";
+		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\palabras.txt";
+		leerMatriz(nombreArchivoM);
 		leerPalabras(nombreArchivo);
-		while (indice <= documento.size() - 1) {
-			app.setToken(documento.get(indice));
-			try {
-				int verifica = app.inicio();
-				if (verifica == 1) {
-					System.out.println("Cadena valida");
-				} else {
-					System.out.println("Cadena invalida");
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				System.out.println(e);
-			}
-			indice++;
+
+//		while (indice <= documento.size() - 1) {
+//			app.setToken(documento.get(indice));
+//			try {
+//				int verifica = app.inicio();
+//				if (verifica == 1) {
+//					System.out.println("Cadena valida");
+//				} else {
+//					System.out.println("Cadena invalida");
+//				}
+//			} catch (Exception e) {
+//				// TODO Auto-generated catch block
+//				System.out.println(e);
+//			}
+//			indice++;
+//		}
+//      la segunda linea
+		// char [] columnas = {'L','D', ';' }; pasa a ser archivo.lenguaje (Array)
+		char c = 'a';
+		int estado = 0;
+		int entrada = -1;
+//      lectura
+		if (Herramienta.letra(c)) {
+			c = '0';
+		} else if (Herramienta.numero(c)) {
+			c = '1';
 		}
+
+		for (int i = 0; i < lenguaje.length - 1; i++) {
+			if (Character.toString(c).equals(lenguaje[i])) {
+				entrada = i;
+				break;
+			}
+		}
+		System.out.println(estado + " " + entrada);
+
+		estado = matriz[estado][entrada];
+		System.out.println(estado);
+
 	}
 
 	public void imprimirPalabras() {
