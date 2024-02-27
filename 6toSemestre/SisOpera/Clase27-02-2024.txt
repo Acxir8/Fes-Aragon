@@ -1,0 +1,38 @@
+Todo sistema operativo debe permitir la ocurrencia de varios procesos. Solapandose en el tiempo de entrada y salida con el de ccalculo y ocupando la memoria con varias aplicaciones
+
+2.- EL sistema operativo tiene que ser capaz de compartir recuros a multinivel
+3.- El sistema opeartivo tiene que ser capaz de ejecutar cualquier proceso en el momento en el que se solicite con tal de que haya suficientes recursos libres para el.
+4.- Todo sistema operativo debe ser eficiente y para medir dicha eficiencia se considerará lo siguiente.
+
+Caracteristicas de un sistema eficiente:
+	Optimización en el uso de los recursos en general. Dispositivos de E/s, memoria el Mp, etc.
+	Qué el software en el que está diseñado sea facil de entender para los usuarios finales.
+	La capacidad de la velocidad de respuesta papra ejecutar cada proceso o trabajo.
+	La seguridad del sistema.
+	Fiabiliadad, nos permite tener errores, pero el sistema es capaz de recuperarse a sí mismo.
+	
+	
+¿Qué es un proceso o tarea? 
+	Es una secuencia temporal de ejecución de instrucciones que corresponde a la realización de un programa.
+
+¿Qué es un trabajo?
+	Conjunto de procesos o tareas que para su ejecución van a involucrar diversos elementos de hardware y de software.
+
+Estructura de los sistemas operativos:
+
+Dispatcher: Se encarga de elegir cual de los procesos, trabajos o tarea se debe ejecutar a continuación.
+
+Apertura y cierre: Esta rutina entra en accion cuando varios procesos quieren utilizar al mismo tiempo el mismo recurso. Los recursos son utilizados por un solo proceso, el resto de los procesos debe esperar.
+
+RI (Rutina de interrupción): Estas rutinas dirigen la acción del sistema para atenderse una iterrupción que señala el fin de un proceso o un acontecimiento anormal.
+
+Rutinas de ELS:
+Gestión de archivos/Datos: Se compone de una serie de rutinas de tratamiento de archivbos externos.
+
+Aisgnación de recursos
+Gestión - trabajos: En este caso se utilizan todos los recursos situados a nivel más interno y define tareas a partir de datos de entrada y salida. Incluye asignación de prioridades a cada tarea, memoria y archivos. También se hace cargo de toda la comunicación del sistema con el exterior.
+ 
+varios
+
+S.O están Diseñados en lenguajes ensambladores o lenguajes de bajo nivel.
+Ejemplo de algunos sistemas operativos: Linux, unix, Ms-Dos, Android 
