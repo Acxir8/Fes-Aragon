@@ -81,7 +81,7 @@ public class Archivos {
 
 	public void analizarPalabras() {
 		String nombreArchivoM = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\matriz";
-		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\palabras.txt";
+		String nombreArchivo = System.getProperty("user.dir") + "\\src\\fes\\aragon\\recursos\\palabras";
 		leerMatriz(nombreArchivoM);
 		leerPalabras(nombreArchivo);
 
