@@ -1,20 +1,17 @@
-module Blink(clk, led);
-	input clk;
-	output led;
+module Blink(input clk, output led);
+	reg [25:0] c = 26'b0; //Se llama c por contador
 	
-	reg [24:0] c = 25'b0;
-	
-always @ (posedge clk)
+always @ (posedge clk) //Si queremos usar contadores de flanco de bajada usamos el nededge
 	begin 
-		if (c<=50)
+		if (c<=50_000_000) //50 para simulacion, 50 millones para la fpga
 			begin
-				c=c+1;
+				c<= c+1;
 			end
 			
 		else
 			begin 
-				c<=0;
+				c<= 0;
 			end
 	end 
-assign led = (c<=(50/2)-1) ? 1'b1 : 1'b0;
+		assign led = (c<=(50_000_000/2)-1) ? 1'b1 : 1'b0;
 endmodule

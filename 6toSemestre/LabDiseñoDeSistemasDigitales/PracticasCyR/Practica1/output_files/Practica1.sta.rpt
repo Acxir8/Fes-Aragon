@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Practica1
-Tue Feb 20 18:53:04 2024
+Fri Feb 23 11:06:01 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -84,15 +84,22 @@ applicable agreement for further details.
 +--------------------+----------------------------------------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 12     ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
 
 
 ----------
@@ -148,16 +155,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 6.581 ;       ;       ; 6.942 ;
-; systemB    ; w           ; 6.918 ;       ;       ; 7.334 ;
-; systemB    ; x           ; 6.913 ; 6.884 ; 7.324 ; 7.327 ;
-; systemC    ; w           ; 7.049 ;       ;       ; 7.396 ;
-; systemC    ; x           ; 7.057 ; 7.024 ; 7.424 ; 7.419 ;
-; systemC    ; y           ; 8.515 ; 8.420 ; 8.903 ; 8.776 ;
-; systemD    ; w           ; 6.867 ;       ;       ; 7.279 ;
-; systemD    ; x           ; 6.875 ; 6.851 ; 7.308 ; 7.303 ;
-; systemD    ; y           ; 8.505 ; 8.380 ; 8.953 ; 8.842 ;
-; systemD    ; z           ;       ; 5.779 ; 6.197 ;       ;
+; systemA    ; w           ; 6.600 ;       ;       ; 6.998 ;
+; systemB    ; w           ; 7.039 ;       ;       ; 7.432 ;
+; systemB    ; x           ; 7.047 ; 7.052 ; 7.445 ; 7.406 ;
+; systemC    ; w           ; 6.927 ;       ;       ; 7.345 ;
+; systemC    ; x           ; 6.922 ; 6.893 ; 7.336 ; 7.339 ;
+; systemC    ; y           ; 8.523 ; 8.428 ; 8.969 ; 8.842 ;
+; systemD    ; w           ; 6.825 ;       ;       ; 7.252 ;
+; systemD    ; x           ; 6.832 ; 6.840 ; 7.273 ; 7.224 ;
+; systemD    ; y           ; 8.462 ; 8.337 ; 8.875 ; 8.764 ;
+; systemD    ; z           ;       ; 5.702 ; 6.103 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -166,16 +173,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 6.430 ;       ;       ; 6.780 ;
-; systemB    ; w           ; 6.753 ;       ;       ; 7.156 ;
-; systemB    ; x           ; 6.747 ; 6.718 ; 7.148 ; 7.150 ;
-; systemC    ; w           ; 6.878 ;       ;       ; 7.216 ;
-; systemC    ; x           ; 6.839 ; 6.819 ; 7.211 ; 7.179 ;
-; systemC    ; y           ; 8.337 ; 8.243 ; 8.715 ; 8.590 ;
-; systemD    ; w           ; 6.704 ;       ;       ; 7.104 ;
-; systemD    ; x           ; 6.663 ; 6.650 ; 7.099 ; 7.067 ;
-; systemD    ; y           ; 8.268 ; 8.147 ; 8.685 ; 8.594 ;
-; systemD    ; z           ;       ; 5.661 ; 6.067 ;       ;
+; systemA    ; w           ; 6.449 ;       ;       ; 6.834 ;
+; systemB    ; w           ; 6.856 ;       ;       ; 7.204 ;
+; systemB    ; x           ; 6.829 ; 6.809 ; 7.199 ; 7.167 ;
+; systemC    ; w           ; 6.761 ;       ;       ; 7.167 ;
+; systemC    ; x           ; 6.756 ; 6.727 ; 7.159 ; 7.161 ;
+; systemC    ; y           ; 8.344 ; 8.250 ; 8.779 ; 8.654 ;
+; systemD    ; w           ; 6.664 ;       ;       ; 7.079 ;
+; systemD    ; x           ; 6.621 ; 6.625 ; 7.057 ; 6.991 ;
+; systemD    ; y           ; 8.226 ; 8.105 ; 8.610 ; 8.519 ;
+; systemD    ; z           ;       ; 5.587 ; 5.976 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -226,16 +233,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 6.135 ;       ;       ; 6.408 ;
-; systemB    ; w           ; 6.439 ;       ;       ; 6.732 ;
-; systemB    ; x           ; 6.442 ; 6.391 ; 6.762 ; 6.740 ;
-; systemC    ; w           ; 6.555 ;       ;       ; 6.820 ;
-; systemC    ; x           ; 6.568 ; 6.518 ; 6.881 ; 6.853 ;
-; systemC    ; y           ; 7.974 ; 7.915 ; 8.314 ; 8.226 ;
-; systemD    ; w           ; 6.379 ;       ;       ; 6.700 ;
-; systemD    ; x           ; 6.393 ; 6.350 ; 6.761 ; 6.732 ;
-; systemD    ; y           ; 7.952 ; 7.865 ; 8.333 ; 8.260 ;
-; systemD    ; z           ;       ; 5.385 ; 5.741 ;       ;
+; systemA    ; w           ; 6.146 ;       ;       ; 6.448 ;
+; systemB    ; w           ; 6.547 ;       ;       ; 6.852 ;
+; systemB    ; x           ; 6.560 ; 6.538 ; 6.901 ; 6.843 ;
+; systemC    ; w           ; 6.446 ;       ;       ; 6.740 ;
+; systemC    ; x           ; 6.448 ; 6.397 ; 6.770 ; 6.748 ;
+; systemC    ; y           ; 7.980 ; 7.921 ; 8.331 ; 8.243 ;
+; systemD    ; w           ; 6.337 ;       ;       ; 6.665 ;
+; systemD    ; x           ; 6.353 ; 6.335 ; 6.720 ; 6.655 ;
+; systemD    ; y           ; 7.912 ; 7.825 ; 8.256 ; 8.183 ;
+; systemD    ; z           ;       ; 5.314 ; 5.645 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -244,16 +251,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 6.005 ;       ;       ; 6.272 ;
-; systemB    ; w           ; 6.297 ;       ;       ; 6.582 ;
-; systemB    ; x           ; 6.298 ; 6.248 ; 6.611 ; 6.589 ;
-; systemC    ; w           ; 6.407 ;       ;       ; 6.666 ;
-; systemC    ; x           ; 6.377 ; 6.339 ; 6.696 ; 6.644 ;
-; systemC    ; y           ; 7.820 ; 7.760 ; 8.153 ; 8.065 ;
-; systemD    ; w           ; 6.239 ;       ;       ; 6.552 ;
-; systemD    ; x           ; 6.209 ; 6.176 ; 6.580 ; 6.528 ;
-; systemD    ; y           ; 7.748 ; 7.659 ; 8.102 ; 8.044 ;
-; systemD    ; z           ;       ; 5.286 ; 5.632 ;       ;
+; systemA    ; w           ; 6.016 ;       ;       ; 6.311 ;
+; systemB    ; w           ; 6.385 ;       ;       ; 6.657 ;
+; systemB    ; x           ; 6.369 ; 6.331 ; 6.686 ; 6.634 ;
+; systemC    ; w           ; 6.303 ;       ;       ; 6.590 ;
+; systemC    ; x           ; 6.304 ; 6.254 ; 6.618 ; 6.596 ;
+; systemC    ; y           ; 7.826 ; 7.766 ; 8.169 ; 8.081 ;
+; systemD    ; w           ; 6.198 ;       ;       ; 6.518 ;
+; systemD    ; x           ; 6.170 ; 6.147 ; 6.533 ; 6.454 ;
+; systemD    ; y           ; 7.709 ; 7.620 ; 8.028 ; 7.970 ;
+; systemD    ; z           ;       ; 5.217 ; 5.539 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -298,16 +305,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 3.902 ;       ;       ; 4.487 ;
-; systemB    ; w           ; 4.113 ;       ;       ; 4.710 ;
-; systemB    ; x           ; 4.118 ; 4.125 ; 4.690 ; 4.715 ;
-; systemC    ; w           ; 4.159 ;       ;       ; 4.758 ;
-; systemC    ; x           ; 4.171 ; 4.172 ; 4.763 ; 4.776 ;
-; systemC    ; y           ; 5.252 ; 5.076 ; 5.847 ; 5.653 ;
-; systemD    ; w           ; 4.082 ;       ;       ; 4.689 ;
-; systemD    ; x           ; 4.095 ; 4.099 ; 4.696 ; 4.709 ;
-; systemD    ; y           ; 5.272 ; 5.082 ; 5.879 ; 5.702 ;
-; systemD    ; z           ;       ; 3.497 ; 4.062 ;       ;
+; systemA    ; w           ; 3.932 ;       ;       ; 4.529 ;
+; systemB    ; w           ; 4.152 ;       ;       ; 4.774 ;
+; systemB    ; x           ; 4.165 ; 4.189 ; 4.776 ; 4.768 ;
+; systemC    ; w           ; 4.118 ;       ;       ; 4.718 ;
+; systemC    ; x           ; 4.124 ; 4.131 ; 4.697 ; 4.722 ;
+; systemC    ; y           ; 5.285 ; 5.109 ; 5.878 ; 5.684 ;
+; systemD    ; w           ; 4.046 ;       ;       ; 4.653 ;
+; systemD    ; x           ; 4.058 ; 4.083 ; 4.657 ; 4.642 ;
+; systemD    ; y           ; 5.234 ; 5.044 ; 5.813 ; 5.636 ;
+; systemD    ; z           ;       ; 3.459 ; 3.995 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -316,16 +323,16 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 3.814 ;       ;       ; 4.393 ;
-; systemB    ; w           ; 4.017 ;       ;       ; 4.607 ;
-; systemB    ; x           ; 4.022 ; 4.027 ; 4.587 ; 4.612 ;
-; systemC    ; w           ; 4.061 ;       ;       ; 4.652 ;
-; systemC    ; x           ; 4.045 ; 4.054 ; 4.639 ; 4.638 ;
-; systemC    ; y           ; 5.149 ; 4.975 ; 5.737 ; 5.543 ;
-; systemD    ; w           ; 3.988 ;       ;       ; 4.587 ;
-; systemD    ; x           ; 3.973 ; 3.985 ; 4.572 ; 4.573 ;
-; systemD    ; y           ; 5.133 ; 4.946 ; 5.722 ; 5.552 ;
-; systemD    ; z           ;       ; 3.426 ; 3.986 ;       ;
+; systemA    ; w           ; 3.843 ;       ;       ; 4.433 ;
+; systemB    ; w           ; 4.048 ;       ;       ; 4.644 ;
+; systemB    ; x           ; 4.039 ; 4.048 ; 4.631 ; 4.630 ;
+; systemC    ; w           ; 4.022 ;       ;       ; 4.614 ;
+; systemC    ; x           ; 4.028 ; 4.033 ; 4.594 ; 4.619 ;
+; systemC    ; y           ; 5.180 ; 5.006 ; 5.767 ; 5.573 ;
+; systemD    ; w           ; 3.953 ;       ;       ; 4.551 ;
+; systemD    ; x           ; 3.936 ; 3.957 ; 4.531 ; 4.509 ;
+; systemD    ; y           ; 5.097 ; 4.910 ; 5.658 ; 5.488 ;
+; systemD    ; z           ;       ; 3.390 ; 3.921 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -350,16 +357,16 @@ No synchronizer chains to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 6.581 ;       ;       ; 6.942 ;
-; systemB    ; w           ; 6.918 ;       ;       ; 7.334 ;
-; systemB    ; x           ; 6.913 ; 6.884 ; 7.324 ; 7.327 ;
-; systemC    ; w           ; 7.049 ;       ;       ; 7.396 ;
-; systemC    ; x           ; 7.057 ; 7.024 ; 7.424 ; 7.419 ;
-; systemC    ; y           ; 8.515 ; 8.420 ; 8.903 ; 8.776 ;
-; systemD    ; w           ; 6.867 ;       ;       ; 7.279 ;
-; systemD    ; x           ; 6.875 ; 6.851 ; 7.308 ; 7.303 ;
-; systemD    ; y           ; 8.505 ; 8.380 ; 8.953 ; 8.842 ;
-; systemD    ; z           ;       ; 5.779 ; 6.197 ;       ;
+; systemA    ; w           ; 6.600 ;       ;       ; 6.998 ;
+; systemB    ; w           ; 7.039 ;       ;       ; 7.432 ;
+; systemB    ; x           ; 7.047 ; 7.052 ; 7.445 ; 7.406 ;
+; systemC    ; w           ; 6.927 ;       ;       ; 7.345 ;
+; systemC    ; x           ; 6.922 ; 6.893 ; 7.336 ; 7.339 ;
+; systemC    ; y           ; 8.523 ; 8.428 ; 8.969 ; 8.842 ;
+; systemD    ; w           ; 6.825 ;       ;       ; 7.252 ;
+; systemD    ; x           ; 6.832 ; 6.840 ; 7.273 ; 7.224 ;
+; systemD    ; y           ; 8.462 ; 8.337 ; 8.875 ; 8.764 ;
+; systemD    ; z           ;       ; 5.702 ; 6.103 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -368,16 +375,16 @@ No synchronizer chains to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; systemA    ; w           ; 3.814 ;       ;       ; 4.393 ;
-; systemB    ; w           ; 4.017 ;       ;       ; 4.607 ;
-; systemB    ; x           ; 4.022 ; 4.027 ; 4.587 ; 4.612 ;
-; systemC    ; w           ; 4.061 ;       ;       ; 4.652 ;
-; systemC    ; x           ; 4.045 ; 4.054 ; 4.639 ; 4.638 ;
-; systemC    ; y           ; 5.149 ; 4.975 ; 5.737 ; 5.543 ;
-; systemD    ; w           ; 3.988 ;       ;       ; 4.587 ;
-; systemD    ; x           ; 3.973 ; 3.985 ; 4.572 ; 4.573 ;
-; systemD    ; y           ; 5.133 ; 4.946 ; 5.722 ; 5.552 ;
-; systemD    ; z           ;       ; 3.426 ; 3.986 ;       ;
+; systemA    ; w           ; 3.843 ;       ;       ; 4.433 ;
+; systemB    ; w           ; 4.048 ;       ;       ; 4.644 ;
+; systemB    ; x           ; 4.039 ; 4.048 ; 4.631 ; 4.630 ;
+; systemC    ; w           ; 4.022 ;       ;       ; 4.614 ;
+; systemC    ; x           ; 4.028 ; 4.033 ; 4.594 ; 4.619 ;
+; systemC    ; y           ; 5.180 ; 5.006 ; 5.767 ; 5.573 ;
+; systemD    ; w           ; 3.953 ;       ;       ; 4.551 ;
+; systemD    ; x           ; 3.936 ; 3.957 ; 4.531 ; 4.509 ;
+; systemD    ; y           ; 5.097 ; 4.910 ; 5.658 ; 5.488 ;
+; systemD    ; z           ;       ; 3.390 ; 3.921 ;       ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -476,10 +483,10 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Feb 20 18:53:03 2024
+    Info: Processing started: Fri Feb 23 11:05:55 2024
 Info: Command: quartus_sta Practica1 -c Practica1
 Info: qsta_default_script.tcl version: #1
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (21077): Core supply voltage is 1.2V
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -523,10 +530,10 @@ Info (332140): No Removal paths to report
 Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4609 megabytes
-    Info: Processing ended: Tue Feb 20 18:53:04 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4648 megabytes
+    Info: Processing ended: Fri Feb 23 11:06:01 2024
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
 
 

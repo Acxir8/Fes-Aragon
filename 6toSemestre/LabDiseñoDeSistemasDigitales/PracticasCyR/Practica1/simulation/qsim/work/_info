@@ -4,23 +4,23 @@ K3
 cModel Technology
 Z0 dH:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
 vExceso3
-Z1 !s100 5^;FJnA>I6=U0=01Rm=[K0
-Z2 IzD=km>RfKHdk[C?PI<9NA1
-Z3 V6KB4BYH1oRE:4=z3mX_fB3
-Z4 dC:\Users\EnriqueMV\Desktop\Fes-Aragon\6toSemestre\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
-Z5 w1708738628
-Z6 8Practica1.vo
-Z7 FPractica1.vo
+Z1 IzD=km>RfKHdk[C?PI<9NA1
+Z2 V6KB4BYH1oRE:4=z3mX_fB3
+Z3 dE:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
+Z4 w1708707784
+Z5 8Practica1.vo
+Z6 FPractica1.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|Practica1.vo|
-Z10 o-work work -O0
-Z11 n@exceso3
+Z8 !s90 -work|work|Practica1.vo|
+Z9 o-work work -O0
+Z10 n@exceso3
 !i10b 1
+Z11 !s100 5^;FJnA>I6=U0=01Rm=[K0
 !s85 0
-Z12 !s108 1708738629.232000
+Z12 !s108 1708707790.441000
 Z13 !s107 Practica1.vo|
 !s101 -O0
 vExceso3_vlg_check_tst
@@ -28,32 +28,32 @@ vExceso3_vlg_check_tst
 Z14 !s100 f@;^VZ:TE>6ZX>>flIb>g2
 Z15 I:2`^MAW?A3IQ]^BGoC?_02
 Z16 V8_FPFH@<`XWWbDW<h5d^51
-R4
-Z17 w1708738627
+R3
+Z17 w1708707782
 Z18 8Waveform1.vwf.vt
 Z19 FWaveform1.vwf.vt
 L0 63
-R8
+R7
 r1
 !s85 0
 31
-Z20 !s108 1708738629.287000
+Z20 !s108 1708707791.031000
 Z21 !s107 Waveform1.vwf.vt|
 Z22 !s90 -work|work|Waveform1.vwf.vt|
 !s101 -O0
-R10
+R9
 Z23 n@exceso3_vlg_check_tst
 vExceso3_vlg_sample_tst
 !i10b 1
 Z24 !s100 >]BV?[MnPoDoE[kLllQP61
 Z25 IQohb7c6`X8QLldPCcgL880
 Z26 V2Ug[f]Xd`ILfP8]hN`P;43
-R4
+R3
 R17
 R18
 R19
 L0 29
-R8
+R7
 r1
 !s85 0
 31
@@ -61,19 +61,19 @@ R20
 R21
 R22
 !s101 -O0
-R10
+R9
 Z27 n@exceso3_vlg_sample_tst
 vExceso3_vlg_vec_tst
 !i10b 1
-Z28 !s100 2ig11`ST7UoR0[;4KIRJT3
-Z29 I4CI]:h@<o[HV;zX2SX92F3
+Z28 !s100 d<9]Sh>h:?82d6CmV4lkz3
+Z29 ID_1cZ>h1NkZB0YA[ICFa]0
 Z30 VlJmU@njj@L;`:lFPd=@762
-R4
+R3
 R17
 R18
 R19
 Z31 L0 239
-R8
+R7
 r1
 !s85 0
 31
@@ -81,7 +81,7 @@ R20
 R21
 R22
 !s101 -O0
-R10
+R9
 Z32 n@exceso3_vlg_vec_tst
 vmyAND
 Z33 !s100 Hd?AlB2i>:0IMf289gQmK3
@@ -89,14 +89,14 @@ Z34 Ij^i4Zg_UF3<[zg^>MCPOB1
 Z35 V=ZzH>9iI630F_5DjHam023
 Z36 dH:\LabDiseñoDeSistemasDigitales\PracticasCyR\Practica1\simulation\qsim
 Z37 w1708060232
+R5
 R6
-R7
 L0 31
-R8
+R7
 r1
 31
+R8
 R9
-R10
 Z38 nmy@a@n@d
 Z39 !s108 1708060231.962000
 R13
@@ -112,13 +112,13 @@ Z43 w1708060230
 R18
 R19
 L0 59
-R8
+R7
 r1
 31
 Z44 !s108 1708060232.469000
 Z45 !s107 Waveform1.vwf.vt|
 R22
-R10
+R9
 Z46 nmy@a@n@d_vlg_check_tst
 !i10b 1
 !s85 0
@@ -132,13 +132,13 @@ R43
 R18
 R19
 L0 29
-R8
+R7
 r1
 31
 R44
 R45
 R22
-R10
+R9
 Z50 nmy@a@n@d_vlg_sample_tst
 !i10b 1
 !s85 0
@@ -151,13 +151,13 @@ R43
 R18
 R19
 Z53 L0 154
-R8
+R7
 r1
 31
 R44
 R45
 R22
-R10
+R9
 Z54 nmy@a@n@d_vlg_vec_tst
 Z55 !s100 AcVbF5P5KAzDOZO[<4j1f2
 !i10b 1

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Practica2
-Thu Feb 22 20:49:11 2024
+Fri Feb 23 12:21:33 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -41,16 +41,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Feb 22 20:49:11 2024      ;
+; Analysis & Synthesis Status        ; Successful - Fri Feb 23 12:21:33 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Practica2                                  ;
-; Top-level Entity Name              ; Blink                                      ;
+; Top-level Entity Name              ; Blink3                                     ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 35                                         ;
-;     Total combinational functions  ; 35                                         ;
-;     Dedicated logic registers      ; 25                                         ;
-; Total registers                    ; 25                                         ;
-; Total pins                         ; 2                                          ;
+; Total logic elements               ; 127                                        ;
+;     Total combinational functions  ; 127                                        ;
+;     Dedicated logic registers      ; 83                                         ;
+; Total registers                    ; 83                                         ;
+; Total pins                         ; 4                                          ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP3C16F484C6       ;                    ;
-; Top-level entity name                                                      ; Blink              ; Practica2          ;
+; Top-level entity name                                                      ; Blink3             ; Practica2          ;
 ; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -145,54 +145,60 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 12     ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                 ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                   ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
-; Blink.v                          ; yes             ; User Verilog HDL File  ; H:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica2/Blink.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                  ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                    ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------+---------+
+; Blink3.v                         ; yes             ; User Verilog HDL File  ; E:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica2/Blink3.v ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 35          ;
-;                                             ;             ;
-; Total combinational functions               ; 35          ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 9           ;
-;     -- 3 input functions                    ; 1           ;
-;     -- <=2 input functions                  ; 25          ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 11          ;
-;     -- arithmetic mode                      ; 24          ;
-;                                             ;             ;
-; Total registers                             ; 25          ;
-;     -- Dedicated logic registers            ; 25          ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 2           ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; LessThan0~7 ;
-; Maximum fan-out                             ; 25          ;
-; Total fan-out                               ; 166         ;
-; Average fan-out                             ; 2.59        ;
-+---------------------------------------------+-------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 127       ;
+;                                             ;           ;
+; Total combinational functions               ; 127       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 33        ;
+;     -- 3 input functions                    ; 12        ;
+;     -- <=2 input functions                  ; 82        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 48        ;
+;     -- arithmetic mode                      ; 79        ;
+;                                             ;           ;
+; Total registers                             ; 83        ;
+;     -- Dedicated logic registers            ; 83        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 4         ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 83        ;
+; Total fan-out                               ; 557       ;
+; Average fan-out                             ; 2.56      ;
++---------------------------------------------+-----------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -200,7 +206,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |Blink                     ; 35 (35)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 2    ; 0            ; |Blink              ; work         ;
+; |Blink3                    ; 127 (127)         ; 83 (83)      ; 0           ; 0            ; 0       ; 0         ; 4    ; 0            ; |Blink3             ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -210,8 +216,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 25    ;
-; Number of registers using Synchronous Clear  ; 25    ;
+; Total registers                              ; 83    ;
+; Number of registers using Synchronous Clear  ; 56    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -235,24 +241,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Feb 22 20:49:07 2024
+    Info: Processing started: Fri Feb 23 12:21:28 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Practica2 -c Practica2
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file blink.v
     Info (12023): Found entity 1: Blink
-Info (12127): Elaborating entity "Blink" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at Blink.v(26): truncated value with size 32 to match size of target (25)
+Info (12021): Found 1 design units, including 1 entities, in source file blink2.v
+    Info (12023): Found entity 1: Blink2
+Info (12021): Found 1 design units, including 1 entities, in source file blink3.v
+    Info (12023): Found entity 1: Blink3
+Info (12127): Elaborating entity "Blink3" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at Blink3.v(9): truncated value with size 32 to match size of target (30)
+Warning (10230): Verilog HDL assignment warning at Blink3.v(21): truncated value with size 32 to match size of target (27)
+Warning (10230): Verilog HDL assignment warning at Blink3.v(33): truncated value with size 32 to match size of target (26)
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 37 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 131 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 35 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4622 megabytes
-    Info: Processing ended: Thu Feb 22 20:49:11 2024
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:01
+    Info (21059): Implemented 3 output pins
+    Info (21061): Implemented 127 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4624 megabytes
+    Info: Processing ended: Fri Feb 23 12:21:34 2024
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
 
 

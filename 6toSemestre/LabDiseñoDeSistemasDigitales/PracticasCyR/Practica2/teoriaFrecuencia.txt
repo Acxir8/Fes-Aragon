@@ -1,0 +1,9 @@
+Necesidad de contar para poder llegar a 50Mhz
+ ¿Cuantos bits se necesitan para contar 50Mhz?
+25bits
+
+ecuación para saber el numero de bits
+
+log[Frecuencia Hz]
+-------------------
+log(2)

@@ -1,5 +1,5 @@
 Assembler report for Practica1
-Tue Feb 20 18:53:02 2024
+Fri Feb 23 11:05:53 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/EnriqueMV/Desktop/Fes-Aragon/6toSemestre/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof
+  5. Assembler Device Options: E:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Feb 20 18:53:02 2024 ;
+; Assembler Status      ; Successful - Fri Feb 23 11:05:53 2024 ;
 ; Revision Name         ; Practica1                             ;
 ; Top-level Entity Name ; Exceso3                               ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                                        ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                                        ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/EnriqueMV/Desktop/Fes-Aragon/6toSemestre/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof ;
-+----------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Assembler Generated Files                                                         ;
++-----------------------------------------------------------------------------------+
+; File Name                                                                         ;
++-----------------------------------------------------------------------------------+
+; E:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof ;
++-----------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/EnriqueMV/Desktop/Fes-Aragon/6toSemestre/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                                                   ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Device         ; EP3C16F484C6                                                                                                                              ;
-; JTAG usercode  ; 0x000C8836                                                                                                                                ;
-; Checksum       ; 0x000C8836                                                                                                                                ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/LabDiseñoDeSistemasDigitales/PracticasCyR/Practica1/output_files/Practica1.sof ;
++----------------+--------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                    ;
++----------------+--------------------------------------------------------------------------------------------+
+; Device         ; EP3C16F484C6                                                                               ;
+; JTAG usercode  ; 0x000C871F                                                                                 ;
+; Checksum       ; 0x000C871F                                                                                 ;
++----------------+--------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Feb 20 18:53:00 2024
+    Info: Processing started: Fri Feb 23 11:05:50 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Practica1 -c Practica1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4591 megabytes
-    Info: Processing ended: Tue Feb 20 18:53:02 2024
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4598 megabytes
+    Info: Processing ended: Fri Feb 23 11:05:53 2024
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 
