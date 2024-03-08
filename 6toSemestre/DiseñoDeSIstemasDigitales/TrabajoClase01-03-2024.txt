@@ -1,0 +1,4 @@
+Diseñe un dispositivo que genere cierta secuencia binaria solo cuando la variable inicio sea igual a 1.
+Además esta secuencia dependerá del valor de la entrada X, si X es igual a 0, la secuencia binaria que se genera es la siguiente: 11, 10, 01.
+Por el contrario, si X es igual a 1, la secuencia será 01, 10, 11. Debes considerar que cada pareja binaria se genera con un ciclo de reloj de diferencia.
+Realizar su carta ASM

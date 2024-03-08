@@ -1,0 +1,138 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "03/01/2024 09:48:42"
+
+// 
+// Device: Altera EP3C16F484C6 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Contador (
+	A,
+	ENTRADA,
+	CLK,
+	B,
+	C);
+output 	A;
+input 	ENTRADA;
+input 	CLK;
+output 	B;
+output 	C;
+
+// Design Ports Information
+// A	=>  Location: PIN_R18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ENTRADA	=>  Location: PIN_T17,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CLK	=>  Location: PIN_G18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// B	=>  Location: PIN_L8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// C	=>  Location: PIN_B2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("Contador_6_1200mv_85c_v_slow.sdo");
+// synopsys translate_on
+
+wire \ENTRADA~input_o ;
+wire \CLK~input_o ;
+wire \A~output_o ;
+wire \B~output_o ;
+wire \C~output_o ;
+
+
+// Location: IOOBUF_X41_Y9_N23
+cycloneiii_io_obuf \A~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A~output .bus_hold = "false";
+defparam \A~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y22_N2
+cycloneiii_io_obuf \B~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\B~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \B~output .bus_hold = "false";
+defparam \B~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y27_N9
+cycloneiii_io_obuf \C~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\C~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \C~output .bus_hold = "false";
+defparam \C~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X41_Y2_N1
+cycloneiii_io_ibuf \ENTRADA~input (
+	.i(ENTRADA),
+	.ibar(gnd),
+	.o(\ENTRADA~input_o ));
+// synopsys translate_off
+defparam \ENTRADA~input .bus_hold = "false";
+defparam \ENTRADA~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X41_Y25_N8
+cycloneiii_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign A = \A~output_o ;
+
+assign B = \B~output_o ;
+
+assign C = \C~output_o ;
+
+endmodule
